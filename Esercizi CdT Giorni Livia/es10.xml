@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Codificare usando gli opportuni elementi TEI un articolo di rivista -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>10 cose insolite da fare a Londra - Edizione TEI</title>
+                <respStmt>
+                    <resp>Codifica a cura di</resp>
+                    <name>Livia Giorni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Edizione digitale per esercizio di codifica XML/TEI</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Lucia Tedesco</author>
+                    <title level="a">10 cose insolite da fare a Londra per portarla per sempre nel cuore</title>
+                    <title level="j">wired.it</title>
+                    <date when="2025-06-18">18.06.2025</date>
+                    <note type="rubric">VIAGGI</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="articolo_giornalistico">
+                <head type="main">10 cose insolite da fare a Londra per portarla per sempre nel cuore</head>
+                <head type="sub">Londra è indubbiamente una delle città più suggestive del mondo: ecco le 10 tappe scelte da Wired che la renderanno indimenticabile</head>
+                <byline>
+                    <note type="category">VIAGGI</note>
+                    <author>LUCIA TEDESCO</author>
+                </byline>
+                <docDate when="2025-06-18">18.06.2025</docDate>
+                <figure>
+                    <figDesc>Immagine di copertina dell'articolo</figDesc>
+                    <note type="credits">OLI SCARFF, GIDEON MENDEL - VIA GETTY IMAGES</note>
+                </figure>
+                <div type="sezione" xml:id="intro">
+                    <p>
+                        Città metamorfica, crocevia di culture, una capitale stratificata, multiforme e contemporanea: le cose da fare a 
+                        <placeName>Londra</placeName> non mancano. Ogni quartiere ha una identità precisa, ogni angolo custodisce passato, storie e vite tutte da scoprire. 
+                        Quando si pensa alla capitale del <placeName>Regno Unito</placeName> la mente non può fare a meno di fantasticare e andare alle sublimi cabine telefoniche 
+                        o agli iconici bus rossi, al <placeName>Big Ben</placeName> che si staglia maiuscolo sulla città, alle luci di <placeName>Piccadilly Circus</placeName>, 
+                        ai pub storici, ai palazzi reali senza tempo, ai parchi sconfinati. <placeName>Londra</placeName> sa essere stravagante, alternativa, barocca, elegante, classica, 
+                        punk, anarchica: contiene moltitudini, è un cosmo dentro un cosmo e navigarla può non essere semplice. Per chi è in cerca di destinazioni da esplorare abbiamo messo 
+                        insieme sia quelle da non perdere assolutamente, sia 10 tappe più insolite per vivere la metropoli inglese in modo diverso.
+                    </p>
+                </div>
+                <div type="sezione" xml:id="classici">
+                    <head>I classici imperdibili</head>
+                    <p>
+                        <placeName>Londra</placeName> è indubbiamente una delle città più suggestive del mondo e con il suo fascino riesce ad attrarre milioni di turisti ogni anno. 
+                        Tra le attrazioni più note tra le cose da fare a Londra ci sono il <placeName>London Eye</placeName> – l’imponente ruota panoramica che domina la città – e il 
+                        <orgName>British Museum</orgName>, tappa imperdibile per gli appassionati di storia. La <placeName>Torre di Londra</placeName>, con i suoi guardiani, 
+                        la <placeName>Cattedrale di St. Paul</placeName> con la sua cupola maestosa ispirata alla <placeName>Basilica di San Pietro</placeName>. 
+                        Irrinunciabile è anche testimoniare al cambio della guardia davanti <placeName>Buckingham Palace</placeName>, o camminare per <placeName>Trafalgar Square</placeName> 
+                        fino a <placeName>Soho</placeName> per poi arrivare a <placeName>Carnaby Street</placeName>. Altrettanto imperdibile è <placeName>Camden Town</placeName>, 
+                        il palazzo di <placeName>Westminster</placeName>, sede delle due camere del Parlamento, <placeName>Tower Bridge</placeName>, il celebre ponte mobile che collega 
+                        i borghi di <placeName>Southwark</placeName> e <placeName>Tower Hamlets</placeName>, e i maestosi parchi londinesi, come <placeName>Hyde Park</placeName>, 
+                        <placeName>St James’s Park</placeName>, <placeName>Kensington Gardens</placeName> e <placeName>Regent's Park</placeName>.
+                    </p>
+                </div>
+
+            </div>
+        </body>
+    </text>
+</TEI>

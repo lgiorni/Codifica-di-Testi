@@ -1,0 +1,3 @@
+<!ELEMENT root (elemento_interno)>
+<!ELEMENT elemento_interno (#PCDATA)>
+<!ATTLIST elemento_interno attributo CDATA #REQUIRED>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Trascrivere e codificare le prime righe della pagina seguente, selezionata dal sito del CDEC (http://digital-library.cdec.it/cdec-
+web/viewer/cdecxDamsHist003/IT-CDEC-ST0003-000032#page/3/mode/1up) -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trascrizione e codifica frammento CDEC</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Esercizio 11</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Digital Library CDEC: IT-CDEC-ST0003-000032</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="trascrizione">
+                <ab>
+                    <lb n="1"/>25 Aprile 1920 - 23 Luglio 1940 - Vent'anni:
+                    <lb n="2"/>appena il limitare della vita. <del>ma</del> breve e lumino
+                    <lb n="3"/>sa veramente, come dice il ricordo marmoreo -
+                    <lb n="4"/><add place="interlinear">trarre traccia di memorie che si svolgono fra casa e scuola,</add>
+                    <lb n="5"/>promessa, speranza, coraggio.
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

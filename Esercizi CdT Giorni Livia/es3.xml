@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- Aprire il file XML non ben formato presente nel repository
+github:
+validarlo con un parser XML
+correggerlo (commentando gli errori e le modifiche)
+aggiungere un figlio (child) ad un elemento 
+aggiungere un fratello (sibling) ad un elemento -->
+
+<!-- file XML non ben formato 
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<dati>
+	<dati><other/></dati>
+	<strutturali>
+		<item />
+		<item />
+		<elem />
+		<other />
+	</strutturali>
+	<testo>
+		questo è un elemento testuale
+	</testo>
+	<misto>
+		il contenuto misto è composta da <tag /> e testo e altri <elem />
+	</misto>
+	<gerarchia>
+		<figlio>
+			<figlio2></figlio2>
+			<figlio2>
+				<figlio3></figlio3>
+			</figlio2>
+		</figlio>
+		<figlio>
+			<figlio2>
+		</figlio></figlio2>
+	</gerarchia>
+</dati> -->
+
+<dati>
+	<dati><other/></dati>
+	<strutturali>
+		<item />
+		<item />
+		<elem />
+		<other />
+	</strutturali>
+	<testo>
+		questo è un elemento testuale
+	</testo>
+	<misto>
+		il contenuto misto è composta da <tag /> e testo e altri <elem />
+	</misto>
+	<gerarchia>
+		<figlio>
+			<figlio2></figlio2>
+			<figlio2>
+				<figlio3></figlio3>
+			</figlio2>
+		</figlio>
+		<figlio>
+			<!-- 
+                correzione: risolto l'errore segnalato dal parser XML ("end tag name: figlio does not match...").
+                è stato applicato l'ordine corretto con la chiusura prima di figlio2 e poi di figlio. 
+			-->
+			<figlio2>
+				<!-- nuovo child nserito all'interno dell'elemento figlio2 -->
+				<nuovo_figlio>nuovo figlio inserito</nuovo_figlio>
+			</figlio2>
+		</figlio>
+		
+		<!-- nuovo sibling inserito allo stesso livello gerarchico degli elementi <figlio> -->
+		<nuovo_fratello>nuovo fratello inserito</nuovo_fratello>
+	</gerarchia>
+</dati>

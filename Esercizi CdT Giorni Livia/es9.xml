@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Utilizzare puntatori, note, lista, glossario marcare nomi, rs, term. -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <text>
+        <body>
+            <div type="sezione_testo">
+                <p>
+                    Lo chef <name type="person">Massimo Bottura</name> ha fatto la spesa al <rs type="institution">Mercato Centrale</rs>. 
+                    Ha definito i concetti base della panificazione artigianale<note place="bottom">L'arte della panificazione ha origini antichissime.</note>.
+                    Per approfondire vedi il sito di cucina <ptr target="https://www.gamberorosso.it/"/>, dove si parla approfonditamente del <term ref="#lievito_madre">lievito madre</term>.
+                </p>
+                
+                <list type="bulleted">
+                    <head>Vantaggi della lievitazione naturale</head>
+                    <item>Maggiore digeribilità del pane</item>
+                    <item>Tempi di conservazione più lunghi</item>
+                </list>
+
+                <list type="gloss">
+                    <head>Glossario gastronomico</head>
+                    <label xml:id="lievito_madre">Lievito madre</label>
+                    <item><gloss>Un impasto di acqua e farina lasciato fermentare spontaneamente, utilizzato per far lievitare i prodotti da forno.</gloss></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

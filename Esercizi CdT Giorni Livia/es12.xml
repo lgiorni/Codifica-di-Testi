@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Codificare lettera Bellini utilizzando il tagset facsimile e il collegamento completo testo-immagine -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettera di Bellini</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Esercizio 12</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Lettera autografa</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface xml:id="folio_1r">
+            <graphic url="lettera_bellini.jpg" />
+            <zone xml:id="zona_verde" ulx="10" uly="14" lrx="248" lry="58" />
+            <zone xml:id="zona_azzurra" ulx="12" uly="63" lrx="249" lry="199" />
+            <zone xml:id="zona_blu" ulx="12" uly="207" lrx="245" lry="334" />
+            <zone xml:id="zona_rossa" ulx="256" uly="12" lrx="498" lry="42" />
+            <zone xml:id="zona_arancione" ulx="277" uly="52" lrx="500" lry="331" />
+            <zone xml:id="zona_magenta" ulx="384" uly="307" lrx="496" lry="340" />
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+            <div type="lettera">
+                <pb facs="#folio_1r" />
+                
+                <ab facs="#zona_verde">
+                    <unclear reason="faded_stamp">Timbro illeggibile</unclear>
+                </ab>
+                <ab facs="#zona_azzurra" type="address">
+                    <address>
+                        <addrLine>a Monsieur</addrLine>
+                        <addrLine>Monsieur <name type="person">Florimo</name></addrLine>
+                        <addrLine><unclear reason="illegible">Presso...</unclear></addrLine>
+                    </address>
+                </ab>
+                <ab facs="#zona_blu">
+                    <gap reason="illegible" extent="several words" />
+                </ab>
+                
+                <ab facs="#zona_rossa" type="dateline">
+                    <placeName>Lione</placeName> <date when="1800-06-26">26 Giugno <unclear>18...</unclear></date>
+                </ab>
+                <p facs="#zona_arancione">
+                    Mio caro Florimo
+                    <lb/>Essendo <unclear reason="illegible">stato...</unclear> 
+                    <lb/>a mandarti in <unclear reason="illegible">questo...</unclear>
+                    <lb/>sperando che tu
+                    <lb/>l'avrai <gap reason="illegible" extent="unknown" />
+                </p>
+                <signed facs="#zona_magenta">
+                    <unclear reason="illegible">Vincenzo</unclear>
+                </signed>
+            </div>
+        </body>
+    </text>
+</TEI>

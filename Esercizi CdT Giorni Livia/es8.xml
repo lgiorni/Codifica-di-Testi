@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Marcare un testo plain text di circa 3000 caratteri a
+piacere.
+inserire prologo XML
+marcare la struttura usando gli elementi fin qui descritti in
+particolare marcare tutti i paragrafi usando <p> e la
+struttura editoriale usando <div>
+verificare che sia ben formato con xmllint
+salvare il file XML su github -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Colosseo - Voce enciclopedica (Wikipedia)</title>
+                <author>Contributori di Wikipedia</author>
+                <respStmt>
+                    <resp>Codifica TEI a cura di</resp>
+                    <name>Livia Giorni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Testo tratto integralmente da Wikipedia - L'enciclopedia libera</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Colosseo</title>
+                    <publisher>Wikipedia</publisher>
+                    <ptr target="https://it.wikipedia.org/wiki/Colosseo"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="articolo" xml:id="colosseo_wiki">
+                <head>Colosseo</head>
+                <p>
+                    Il Colosseo, originariamente conosciuto come Amphitheatrum Flavium (Anfiteatro Flavio) o semplicemente come Novum Amphitheatrum, è il più grande anfiteatro del mondo, situato nel centro della città di Roma. In grado di contenere un numero di spettatori stimato tra 50 000 e 87 000 unità, è il più importante anfiteatro romano, nonché il più imponente monumento della Roma antica che sia giunto fino a noi, noto in tutto il mondo come simbolo della città stessa e uno dei simboli d'Italia.
+                </p>
+                <p>
+                    L'anfiteatro è stato edificato in epoca flavia su un'area al limite orientale del Foro Romano. La sua costruzione fu iniziata da Vespasiano nel 70 d.C. e inaugurato da Tito nell'80 d.C., con ulteriori modifiche apportate durante l'impero di Domiziano nel 90. L'edificio forma un'ellisse di 527 m di perimetro, con assi che misurano 188 e 156 metri. L'arena all'interno misura 86 m per 54 e ha una superficie di 3 357 m². L'altezza attuale raggiunge i 48,5 m, ma originariamente arrivava a 52 m. La struttura esprime con chiarezza le concezioni architettoniche e costruttive romane della prima età imperiale, basate rispettivamente sulla linea curva o avvolgente offerta dalla pianta ellittica e sulla complessità dei sistemi costruttivi. Archi e volte sono concatenati tra loro in un serrato rapporto strutturale.
+                </p>
+                <p>
+                    Il nome «Colosseo» si diffuse solo nel Medioevo, e deriva dalla deformazione popolare dell'aggettivo latino colosseum (traducibile in «colossale», a causa delle vicine proporzioni della colossale statua di Nerone) o, secondo un'altra ipotesi, dalla vicinanza della colossale statua acrolitica in bronzo di Nerone che sorgeva nei pressi, alta ben 37 metri e opera del cesellatore Zenododoro.
+                </p>
+                <p>
+                    L'uso dell'anfiteatro per gli spettacoli era legato ai munera (giochi gladiatori) e alle venationes (cacce di animali). I materiali da costruzione impiegati sono vari: blocchi di travertino per i pilastri e la facciata esterna, tufo per i piloni interni, laterizio per i muri radiali e le volte, mentre per la pavimentazione dell'arena fu usato il legno, ricoperto di sabbia. Il sistema di smaltimento delle acque e le complesse strutture sotterranee (ipogei) permettevano una spettacolare gestione degli ingressi e degli effetti scenici.
+                </p>
+                <p>
+                    L'edificio cessò di essere utilizzato per gli spettacoli nel VI secolo: durante l'Alto Medioevo subì un rovinoso terremoto nel 847 che ne fece crollare la parte meridionale, e fu in seguito riutilizzato in vari modi, anche come cava di materiale per le nuove costruzioni papali o come residenza e fortificazione, mentre nel XVIII secolo fu consacrato da papa Benedetto XIV a memoria della passione di Cristo.
+                </p>
+                <p>
+                    Inserito nel 1980 nella lista dei Patrimoni dell'umanità dall'UNESCO, insieme a tutto il centro storico di Roma, nel 2007 il monumento è stato anche inserito fra le Nuove sette meraviglie del mondo, a seguito di un concorso internazionale. Attualmente è un museo e il monumento più visitato d'Italia.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Inserire all'interno di un tag un frammento di codice HTML -->
+
+<root>
+    <codice_sito>
+        <![CDATA[
+            <div>
+                <h1>Titolo pagina HTML</h1>
+                <p>Paragrafo</p>
+            </div>
+        ]]>
+    </codice_sito>
+</root>
