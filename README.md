@@ -1,5 +1,6 @@
 # Codifica-di-Testi
-Progetto e esercizi del corso Codifica di Testi, a.a. 25/26.
+Progetto e esercizi di Livia Giorni, mat.674163 
+Codifica di Testi, a.a. 25/26
 
 # Saxon
 java -jar saxon.jar -s:Farfalla_1877_3_5_Bibliografia.xml -xsl:stile_coverless.xsl -o:index.html
