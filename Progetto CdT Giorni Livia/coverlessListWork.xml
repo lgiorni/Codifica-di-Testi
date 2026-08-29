@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+					Lista di entità nominate per i testi codificati in COVerLeSS: le opere del Verismo
+				</title>
+				<respStmt>
+					<resp>Conversione TEI P5</resp>
+					<persName xml:id="LG">Livia Giorni</persName>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">Digital edition - <date when="2026-06">June 2026</date></edition>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="DS">Daria Spampinato</name>
+					<name xml:id="ADS">Antonio Di Silvestro</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding model by</resp>
+					<name resp="#DS">Daria Spampinato</name>
+					<name xml:id="LM">Laura Mazzagufo</name>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DB">Denise Bruno</name>
+				</respStmt>
+				<funder>NextGenerationEU</funder>
+				<funder>Ministero dell'Università e della Ricerca</funder>
+				<funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+				<funder ref="coverlessListOrganization.xml#CNR">CNR - Consiglio Nazionale delle Ricerche</funder>
+				<funder ref="coverlessListOrganization.xml#UniCT">Università di Catania</funder>
+			</editionStmt>
+			<publicationStmt>
+				<!-- Dati di diffusione e distribuzione dell'edizione -->
+                <authority ref="coverlessListOrganization.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+                <authority ref="coverlessListOrganization.xml#UniCT">Università di Catania</authority>
+                <date when="2025">2025</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+                </availability>
+                <idno type="filename">coverlessListWork.xml</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Born digital.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<listBibl xml:id="bibliografiaPrimaria">
+				<biblStruct xml:id="profiliDiDonna">
+					<monogr>
+						<title level="m">Profili di donna</title>
+						<author ref="coverlessListPerson.xml#luigiCapuana">Luigi Capuana</author>
+						<imprint>
+							<pubPlace ref="coverlessListPlace.xml#MI">Milano</pubPlace>
+							<publisher ref="coverlessListOrganization.xml#brigolaEditore">Brigola Editore</publisher>
+							<date when="1877">1877</date>
+						</imprint>
+					</monogr>
+					<note><p>Raccolta di bozzetti e ritratti femminili attraverso cui Luigi Capuana sperimenta per la prima volta l'approccio oggettivo e fisiologico alle passioni umane, prima della piena adesione al Verismo.</p></note>
+				</biblStruct>
+
+				<biblStruct xml:id="madriPerRidere">
+					<monogr>
+						<title level="m">Madri... per ridere</title>
+						<author ref="coverlessListPerson.xml#ignoto">Autore ignoto</author>
+						<imprint>
+							<date>1877</date>
+						</imprint>
+					</monogr>
+					<note><p>Opera narrativa contemporanea menzionata dal recensore della Farfalla a titolo di paragone per esaltare l'abilità narrativa dei "Profili di donna" di Capuana.</p></note>
+				</biblStruct>
+
+                <biblStruct xml:id="assommoir">
+					<monogr>
+						<title level="m">L'Assommoir</title>
+						<author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+						<imprint>
+							<pubPlace ref="coverlessListPlace.xml#PAR">Parigi</pubPlace>
+							<publisher ref="coverlessListOrganization.xml#charpentier">Charpentier</publisher>
+							<date when="1877">1877</date>
+						</imprint>
+					</monogr>
+					<note source="https://www.treccani.it/enciclopedia/l-assommoir/"><p>Romanzo (1877) dello scrittore francese É. Zola. Settimo del ciclo dei Rougon-Macquart, vi si narra la vita e la fine misera della lavandaia Gervaise e del marito Coupeau.</p></note>
+				</biblStruct>
+
+                <biblStruct xml:id="lacuree">
+					<monogr>
+						<title level="m">La Curée</title>
+						<author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+						<imprint>
+							<pubPlace ref="coverlessListPlace.xml#PAR">Parigi</pubPlace>
+							<publisher ref="coverlessListOrganization.xml#charpentier">Charpentier</publisher>
+							<date when="1871">1871</date>
+						</imprint>
+					</monogr>
+					<note><p>Secondo romanzo del ciclo dei Rougon-Macquart, focalizzato sulla speculazione edilizia parigina sotto il Secondo Impero e sulla corruzione della borghesia arricchita.</p></note>
+				</biblStruct>
+
+                <biblStruct xml:id="ventredeparis">
+					<monogr>
+						<title level="m">Le Ventre de Paris</title>
+						<author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+						<imprint>
+							<pubPlace ref="coverlessListPlace.xml#PAR">Parigi</pubPlace>
+							<publisher ref="coverlessListOrganization.xml#charpentier">Charpentier</publisher>
+							<date when="1873">1873</date>
+						</imprint>
+					</monogr>
+					<note><p>Terzo romanzo del ciclo dei Rougon-Macquart, celebre per le sue vivide descrizioni delle Halles (i grandi mercati coperti di Parigi) e per l'indagine dello scontro tra classi abbienti ("i grassi") e classi povere ("i magri").</p></note>
+				</biblStruct>
+                
+                <biblStruct xml:id="rougonmacquart">
+					<monogr>
+					<title level="s">Les Rougon-Macquart</title>
+					<author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+					<imprint>
+						<date>1871-1893</date>
+					</imprint>
+					</monogr>
+					<note source="https://www.treccani.it/enciclopedia/les-rougon-macquart/"><p>Ciclo di 20 romanzi (1871-93) dello scrittore fr. É. Zola, nei quali l'autore ha inteso scrivere la storia naturale e sociale di una famiglia sotto il Secondo Impero.</p></note>
+				</biblStruct>
+			</listBibl>
+		</body>
+	</text>
+</TEI>

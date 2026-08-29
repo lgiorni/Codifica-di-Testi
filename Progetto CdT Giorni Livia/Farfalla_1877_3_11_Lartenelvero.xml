@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="stile_coverless.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="it">
+      <fileDesc>
+         <titleStmt>
+            <title>L'arte nel vero</title>
+            <author ref="coverlessListPerson.xml#feliceUda">F. Uda</author>
+            <respStmt>
+               <resp>Conversione TEI P5 a cura di</resp>
+               <name xml:id="LG">Livia Giorni</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">Digital edition - <date when="2026-06">Giugno 2026</date></edition>
+            <respStmt>
+               <resp>Digital edition project coordinated by</resp>
+               <name xml:id="DS">Daria Spampinato</name>
+               <name xml:id="ADS">Antonio Di Silvestro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding model by</resp>
+               <name xml:id="LM">Laura Mazzagufo</name>
+               <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+               <name xml:id="DB">Denise Bruno</name>
+            </respStmt>
+            <funder>NextGenerationEU</funder>
+            <funder>Ministero dell'Università e della Ricerca</funder>
+            <funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+            <funder ref="coverlessListOrganization.xml#CNR">CNR - Consiglio Nazionale delle Ricerche</funder>
+            <funder ref="coverlessListOrganization.xml#UniCT">Università di Catania</funder>
+         </editionStmt>
+         <publicationStmt>
+            <authority ref="coverlessListOrganization.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+            <authority ref="coverlessListOrganization.xml#UniCT">Università di Catania</authority>
+            <date when="2026">2026</date>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+            </availability>
+            <idno type="filename">Farfalla_1877_3_11_Lartenelvero.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">L'arte nel vero</title>
+                     <author ref="coverlessListPerson.xml#feliceUda">F. Uda</author>
+                  </analytic>
+                  <monogr>
+                     <title level="j" xml:id="farfalla">La Farfalla</title>
+                     <imprint>
+                        <pubPlace ref="coverlessListPlace.xml#CA">Cagliari</pubPlace>
+                        <publisher ref="coverlessListOrganization.xml#timon">Tipografia Timon</publisher>
+                        <date when="1877">1877</date>
+                     </imprint>
+                     <biblScope unit="volume">3</biblScope>
+                     <biblScope unit="issue">11</biblScope>
+                     <biblScope unit="page">110</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <projectDesc>
+            <p>Codifica realizzata per il progetto PRIN PNRR COVerLeSS.</p>
+         </projectDesc>
+         <editorialDecl>
+            <normalization>
+               <p>Spazi normalizzati. Le grafie arcaiche sono state mantenute e affiancate dalla forma normalizzata e tradotta tramite tag choice.</p>
+            </normalization>
+            <interpretation>
+               <p>I termini dialettali o arcaici sono corredati da glosse filologiche. Il lessico è annotato tramite la tassonomia verista.</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="text" subtype="testo_in_versi">Articolo in rivista</term>
+            </keywords>
+            <keywords scheme="#themesTaxonomy">
+               <term type="themes" ref="coverlessTassonomia.xml#emarginazioneEdEsclusione">Emarginazione ed Esclusione</term>
+               <term type="themes" ref="coverlessTassonomia.xml#arti_visive">Arti Visive</term>
+               <term type="themes" ref="coverlessTassonomia.xml#rappresentazione">Rappresentazione</term>
+               <term type="themes" ref="coverlessTassonomia.xml#vero_verita">Vero e Verità</term>
+               <term type="themes" ref="coverlessTassonomia.xml#ismi">Ismi</term>
+               <term type="themes" ref="coverlessTassonomia.xml#studio_osservazione">Studio e Osservazione</term>
+               <term type="themes" ref="coverlessTassonomia.xml#narrazione">Narrazione</term>
+            </keywords>
+         </textClass>
+         <creation>
+            <placeName ref="coverlessListPlace.xml#MI">Milano</placeName>
+            <date when="1877-04-24">24 aprile 1877</date>
+         </creation>
+         <abstract>
+            <p>Componimento in versi in cui l'autore riflette sul concetto di realismo e verismo nell'arte. Attraverso una serie di contrasti tra il bello e il brutto, l'ideale e il reale, la virtù e il vizio, il poeta critica l'eccesso di un'arte che indugia solo sugli aspetti più degradanti e oscuri dell'esistenza umana (come l'ospedale, la prostituzione, il lupanare), sostenendo che la vera armonia risiede in un equilibrio, in un chiaroscuro dove l'affetto del "maestro" possa ricongiungere il brutto e il bello.</p>
+         </abstract>
+         <langUsage>
+            <language ident="it">Italiano</language>
+            <language ident="it-x-800">Italiano di fine Ottocento</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change status="draft" when="2026-06-01" resp="#LG">First draft 1 Giugno 2026</change>
+      </revisionDesc>
+  </teiHeader>
+
+  <facsimile>
+      <surface xml:id="surface_pag_110">
+          <graphic url="Farfalla_1877_3_11_110.tif" width="3412px" height="4964px" />
+          <zone xml:id="zona_fregio_sup" ulx="931" uly="1698" lrx="1190" lry="1741" />
+          <zone xml:id="zona_titolo" ulx="783" uly="1914" lrx="1325" lry="2033" />
+          <zone xml:id="zona_p_1" ulx="440" uly="2229" lrx="1422" lry="2724" />
+          <zone xml:id="zona_p_2" ulx="435" uly="2810" lrx="1599" lry="3572" />
+          <zone xml:id="zona_p_3" ulx="425" uly="3654" lrx="1447" lry="4583" />
+          <zone xml:id="zona_separatore_vert" ulx="1714" uly="512" lrx="1805" lry="4583" />
+          <zone xml:id="zona_p_4" ulx="1876" uly="572" lrx="2861" lry="1188" />
+          <zone xml:id="zona_p_5" ulx="1892" uly="1255" lrx="2935" lry="2154" />
+          <zone xml:id="zona_p_6" ulx="1843" uly="2204" lrx="2894" lry="3385" />
+          <zone xml:id="zona_dateline" ulx="1933" uly="3439" lrx="2399" lry="3495" />
+          <zone xml:id="zona_firma" ulx="2709" uly="3498" lrx="2985" lry="3564" />
+      </surface>
+  </facsimile>
+
+  <text type="poesia">
+      <body>
+         <pb n="110" xml:id="Farfalla_1877_3_11_110" facs="#surface_pag_110"/>
+         <cb n="1" xml:id="col_1-p.110"/>
+
+         <div type="intestazione">
+            <head type="main" facs="#zona_titolo">L'ARTE NEL VERO</head>
+            <metamark function="sectionDivider" facs="#zona_fregio_sup">~~~~~</metamark>
+         </div>
+
+         <div type="text">
+            <lg xml:id="p_1" facs="#zona_p_1">
+               <l>No, credere non voglio che sia spenta</l>
+               <l>La virtù sulla terra,</l>
+               <l><choice><orig>Nè</orig><reg>Né</reg></choice> le rimanga un alito</l>
+               <l>D'<choice><orig>amor</orig><reg>amore</reg></choice>, di fede. È vero, c'è la guerra</l>
+               <l>Tremenda, inesorabile</l>
+               <l>Contro ogni affetto generoso e santo,</l>
+               <l>Ed il brutto predomina</l>
+               <l>Sovranamente, ed il crearlo è vanto.</l>
+            </lg>
+            
+            <lg xml:id="p_2" facs="#zona_p_2">
+               <l>Ma che perciò ? la <term type="forma_letteraria" subtype="ismi">vera Scuola dell'arte</term> ingombra</l>
+               <l>Sarà solo di ladri e di <term type="verbum" subtype="evoluzione_sociale"><choice rend="traduzione"><orig>sgualdrine</orig><reg>prostitute</reg></choice></term> ?</l>
+               <l>Il mondo è tutto una nota stonata</l>
+               <l>O morte son le melodie divine ?</l>
+               <l>Una massa addensata</l>
+               <l>Ed una <term type="verbum" subtype="arti_visive">tinta nera</term></l>
+               <l>Han da <term type="verbum" subtype="rappresentazione">formare il <term type="verbum" subtype="arti_visive">quadro</term></term> ? O le tempeste</l>
+               <l>Regnan sol sull'Oceano</l>
+               <l>E non <choice rend="traduzione"><orig>anco</orig><reg>ancora</reg></choice> la calma e i flutti azzurri ?</l>
+               <l>Nella famiglia non abbiam più feste,</l>
+               <l>Fior nei giardini, e nei boschi susurri ?</l>
+            </lg>
+            
+            <lg xml:id="p_3" facs="#zona_p_3">
+               <l>Siccome nella vita, eterna sempre</l>
+               <l>È la lotta nell'arte ;</l>
+               <l>Colà v' è il bene e il male,</l>
+               <l>Qui - secondo le tempre</l>
+               <l>Di ciascuno ed il punto da cui parte -</l>
+               <l>Il <term type="verbum" subtype="vero_verita">real</term>, l'<term type="forma_letteraria" subtype="ismi">ideale</term>,</l>
+               <l>È una <term type="verbum" subtype="rappresentazione">perpetua antitesi</term>,</l>
+               <l><term type="verbum" subtype="arti_visive">Gioco d'ombre e di luce</term> ;</l>
+               <l><term type="verbum" subtype="arti_visive">Raggio di sol</term> tra i <choice rend="traduzione"><orig>nugoli</orig><reg>nuvole</reg></choice></l>
+               <l>L'<term type="verbum" subtype="arti_visive">arcobalen</term> produce ;</l>
+               <l>Col vizio andando attorno</l>
+               <l>L' Eleganza un bel giorno</l>
+               <l>Ha partorito mostri,</l>
+               <l>E le fanciulle amabili</l>
+               <l><seg type="notaEditoriale"><choice rend="traduzione"><orig>Biasciano</orig><reg>Biascicano</reg></choice></seg><ptr type="notaEditoriale" target="#N_1_Farfalla_1877_3_11_Lartenelvero" n="1"/> a settant'anni i paternostri.</l>
+            </lg>
+
+            <metamark function="sectionDivider" facs="#zona_separatore_vert"></metamark>
+            <cb n="2" xml:id="col_2-p.110"/>
+
+            <lg xml:id="p_4" facs="#zona_p_4">
+               <l>Or l'<term type="verbum" subtype="rappresentazione">evidenza e il bello</term></l>
+               <l>Soltanto nell'<choice rend="traduzione"><orig>alcova</orig><reg>camera da letto</reg></choice></l>
+               <l>E nel piccante del nudo si trova ;</l>
+               <l>Se più sa di <term type="verbum" subtype="evoluzione_sociale">bordello</term></l>
+               <l>Più attraente è la <term type="forma_letteraria" subtype="narrazione">scena</term> ;</l>
+               <l><seg type="notaEditoriale"><term type="verbum" subtype="evoluzione_sociale">L'adulterio e il marito <choice rend="traduzione"><orig>corbellato</orig><reg>ingannato</reg></choice></term></seg><ptr type="notaEditoriale" target="#N_2_Farfalla_1877_3_11_Lartenelvero" n="2"/>,</l>
+               <l><term type="verbum" subtype="evoluzione_sociale">La moglie matta e la fanciulla oscena</term>,</l>
+               <l>L'effluvio del bucato</l>
+               <l>E i <choice rend="traduzione"><orig>pannilini</orig><reg>biancheria</reg></choice> sudici</l>
+               <l>Ci fanno un'arte nova.</l>
+            </lg>
+            
+            <lg xml:id="p_5" facs="#zona_p_5">
+               <l>La Fanciulla</l>
+               <l>Che i cenci non baratta</l>
+               <l>Coi denari del ricco o non s'imbratta,</l>
+               <l>O una povera culla,</l>
+               <l>Od una moglie onesta</l>
+               <l>Non stanno più nel <term type="verbum" subtype="vero_verita">vero</term> ; e la modesta</l>
+               <l>Virtù che soffre tacita</l>
+               <l>E lotta contro il male</l>
+               <l>È cosa <term type="verbum" subtype="rappresentazione">inverosimile e <term type="forma_letteraria" subtype="ismi">ideale</term></term>,</l>
+               <l>Oh ! guai se in quell'opaco, orrido mondo</l>
+               <l>Che si <term type="verbum" subtype="rappresentazione">descrive</term> a fondo</l>
+               <l>Nascon rose e viole ;</l>
+               <l>Guai se in quel <choice><orig>bujo</orig><reg>buio</reg></choice> penetra</l>
+               <l>Un sol raggio di sole.</l>
+            </lg>
+            
+            <lg xml:id="p_6" facs="#zona_p_6">
+               <l>L'arte è il brutto, il lascivo è l'<term type="verbum" subtype="rappresentazione">evidenza</term>,</l>
+               <l>E la <term type="forma_letteraria" subtype="autorialita_narrativita">prosa rimata è poesia</term> ;</l>
+               <l>Profonda, irresistibile <choice rend="traduzione"><orig>malia</orig><reg>fascino</reg></choice></l>
+               <l>La <term type="verbum" subtype="evoluzione_sociale">donna prostituta e gl'<choice><orig>illegittimi</orig><reg>gli illegittimi</reg></choice></term></l>
+               <l><term type="verbum" subtype="evoluzione_sociale">Figli</term> - e laggiù, la <term type="verbum" subtype="evoluzione_sociale">forca e l'ospedale</term>, -</l>
+               <l>Ecco l'arte, ecco il <term type="verbum" subtype="vero_verita">vero</term>, ecco il <term type="verbum" subtype="vero_verita">reale</term>.</l>
+               <l>Ah ! no ; l'arte è l'antitesi,</l>
+               <l>La vita è il <term type="verbum" subtype="arti_visive">chiaroscuro</term>,</l>
+               <l>S'alternano nel circolo</l>
+               <l>Il candido e l'impuro ;</l>
+               <l>Il diavolo coi santi</l>
+               <l>E i pigmei coi giganti</l>
+               <l>Si corrono e rincorrono</l>
+               <l>Nell'armonia del tutto,</l>
+               <l>Producendo ora il bello e ora il brutto.</l>
+               <l>Per chi ha il senso squisito</l>
+               <l>Così il <term type="verbum" subtype="arti_visive">quadro</term> è finito,</l>
+               <l>Sol che a farlo perfetto</l>
+               <l>Manca ancora il maestro - ed è l'affetto.</l>
+            </lg>
+         </div>
+
+         <div type="closer">
+            <dateline facs="#zona_dateline">
+               <placeName type="real" ref="coverlessListPlace.xml#MI">Milano</placeName>, <date when="1877-04-24">24 aprile 1877</date>.
+            </dateline>
+            <signed facs="#zona_firma">
+               <persName type="real" ref="coverlessListPerson.xml#feliceUda">
+               <choice>
+                  <abbr>F.</abbr>
+                  <expan resp="#LG">Felice</expan>
+               </choice> Uda
+               </persName>
+            </signed>
+         </div>
+      </body>
+      <back>
+         <list type="notaEditoriale">
+            <item n="1" xml:id="N_1_Farfalla_1877_3_11_Lartenelvero">
+               <label>Biasciano</label>
+               <note>
+                  <ab>Termine popolare e colloquiale inserito in poesia per polemizzare contro le derive naturaliste.</ab>
+               </note>
+            </item>
+            <item n="2" xml:id="N_2_Farfalla_1877_3_11_Lartenelvero">
+               <label>L'adulterio e il marito corbellato</label>
+               <note>
+                  <ab>Termine gergale e comico per indicare un uomo deriso o tradito.</ab>
+               </note>
+            </item>
+         </list>
+      </back>
+  </text>
+</TEI>

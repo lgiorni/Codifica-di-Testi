@@ -1,0 +1,405 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script type="text/javascript" src="script.js"></script><title>Edizione Digitale COVerLeSS - La Farfalla</title>
+      <link rel="shortcut icon" type="image/png" href="logo_COVerLeSS.png">
+      <link rel="icon" type="image/png" href="logo_COVerLeSS.png">
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <header>
+         <nav class="nav-principale"><a href="#progetto" class="logo" title="Scopri il progetto COVerLeSS">
+               COVer<span>LeSS</span></a><a href="#rivista" class="titolo-rivista" title="Info sulla rivista">Edizione Digitale - La Farfalla</a><ul class="link-navigazione">
+               <li><a href="#mappa">Mappa</a></li>
+               <li><a href="#farfallite">Farfallite</a></li>
+               <li><a href="#arte">L'Arte nel Vero</a></li>
+               <li><a href="#bibliografia">Bibliografia</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div id="modale-facsimile" class="modale">
+         <div class="contenuto-modale testo-centrato"><span class="chiudi">×</span><h3 class="titolo-modale-piccolo">Immagine originale</h3><img id="img-modale-target" class="img-modale" src="" alt="Facsimile Ingrandito"><p id="fonte-modale-target" class="fonte-modale">Fonte: La Farfalla</p>
+         </div>
+      </div>
+      <main>
+         <section id="rivista" class="sezione-intro">
+            <div class="pannello-intro in-evidenza layout-rivista">
+               <div class="colonna-img-rivista"><img class="copertina-rivista-intro" src="copertina_farfalla.tif" alt="Copertina La Farfalla" title="Clicca per ingrandire a tutto schermo"></div>
+               <div class="colonna-testo-rivista">
+                  <h2 class="titolo-rivista-intro" style="text-align: left;">La Farfalla</h2>
+                  <p>Fondata a Cagliari da Angelo Sommaruga, «La Farfalla» vide la luce il 27 febbraio
+                     1876. Si presentava al pubblico «semplice, pulita, senza fregi». Tra i maggiori collaboratori:
+                     Giarelli, Bacaredda, Cameroni e Valera. Nel 1877 si trasferì a Milano con una nuova
+                     testata liberty disegnata da Tranquillo Cremona.</p>
+                  <hr class="divisore-rivista-intro">
+                  <ul class="lista-rivista-intro">
+                     <li><strong>Attività:</strong> 1876 – 1883</li>
+                     <li><strong>Numeri:</strong> 14 uscite regolari</li>
+                     <li><strong>Prezzo:</strong> 10 Centesimi</li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <section id="progetto" class="sezione-intro">
+            <div class="pannello-intro secondario">
+               <h2 class="titolo-progetto-intro">Il Progetto COVerLeSS</h2>
+               <h3 class="sottotitolo-progetto-intro">Corpus Online del Verismo tra Letteratura, Storia e Società</h3>
+               <p><strong>COVerLeSS</strong> è un ambiente web integrato e open access dedicato alla ricezione contemporanea della
+                  letteratura del Verismo italiano (dalle novelle di <em>Vita dei campi</em> al <em>Mastro-don Gesualdo</em>). La forte impronta storico-sociale di questo movimento si è riflessa in un ricchissimo
+                  pullulare di recensioni, polemiche e saggi.</p>
+               <p>Questo materiale è stato riunito in un corpus che offre la possibilità di <strong>interrogazioni strutturate</strong> e <strong>percorsi didattici</strong>. COVerLeSS mette a disposizione strumenti capaci di fare luce sui rapporti tra dibattito
+                  politico-sociale, le problematiche dell'Italia unita e la letteratura verista.</p>
+               <p style="margin-bottom: 5px;">Il corpus riunisce:</p>
+               <ul class="lista-rivista-intro" style="margin-bottom: 15px;">
+                  <li>Recensioni contemporanee;</li>
+                  <li>Periodici di taglio 'monografico';</li>
+                  <li>Saggi teorici.</li>
+               </ul>
+               <p>L’utente può individuare parole-chiave, espressioni ricorrenti e fraseologie caratterizzanti,
+                  usufruendo di un vero e proprio <strong>dizionario ‘teorico-pratico’</strong>.</p>
+            </div>
+         </section>
+         <hr class="divisore-sezione">
+         <section id="mappa" class="sezione-intro">
+            <div class="legenda"><strong class="titolo-legenda">Mappa interattiva: clicca sui pulsanti per evidenziare nel testo i termini relativi
+                  al campo semantico corrispondente</strong><button class="voce-legenda termine-vero" data-evidenzia="termine-vero">Vero/verità</button><button class="voce-legenda termine-arti" data-evidenzia="termine-arti">Arti visive</button><button class="voce-legenda termine-rapp" data-evidenzia="termine-rapp">Rappresentazione</button><button class="voce-legenda termine-emarg" data-evidenzia="termine-emarg">Emarginazione</button><button class="voce-legenda termine-ismi" data-evidenzia="termine-ismi">Ismi</button><button class="voce-legenda termine-oss" data-evidenzia="termine-oss">Osservazione</button><button class="voce-legenda termine-gen" data-evidenzia="termine-gen">Genere letterario</button><button class="voce-legenda termine-aut" data-evidenzia="termine-aut">Forma</button><button class="voce-legenda termine-nar" data-evidenzia="termine-nar">Narrazione</button><button class="voce-legenda persona" data-evidenzia="persona">Persone</button><button class="voce-legenda opera" data-evidenzia="opera">Opere</button><button class="voce-legenda luogo" data-evidenzia="luogo">Luoghi</button><div class="contenitore-pulsanti-editoriali">
+                  <div class="istruzioni-legenda"><strong>Istruzioni:</strong><br><em>Tramite i pulsanti sottostanti è possibile interagire ulteriormente con il testo.
+                        <br>Il pulsante "Scioglimento" mostra le parole troncate. <br>Il pulsante "Ortografia moderna" permette di confrontare la grafia ottocentesca. <br>Il pulsante "Traduzione" chiarisce i termini arcaici. <br>Il pulsante "Note filologiche" svela le note al testo.</em></div><button id="alterna-abbr" class="voce-legenda pulsante-editoriale">Scioglimento</button><button id="alterna-orto" class="voce-legenda pulsante-editoriale">Ortografia moderna</button><button id="alterna-trad" class="voce-legenda pulsante-editoriale">Traduzione</button><button id="alterna-glossa" class="voce-legenda pulsante-editoriale">Note filologiche</button></div>
+            </div>
+         </section>
+         <hr class="divisore-sezione">
+         <section id="farfallite">
+            <h1>Recensione a Luigi Capuana, Profili di donna</h1>
+            <div class="dati-meta"><strong>Autore: </strong>Autore ignoto | <strong>Rivista: </strong>La Farfalla</div>
+            <div class="contenitore-didattico">
+               <div class="pannello-info">
+                  <div class="dettagli-meta"><strong class="titolo-meta">Dettagli della codifica:</strong><ul>
+                        <li><b>Codificatore: </b>Livia Giorni</li>
+                     </ul>
+                  </div>
+                  <div class="contenitore-facs">
+                     <h3 class="titolo-facs">Immagine originale</h3><img class="anteprima-img-facs" src="Farfalla_1877_4_5_19.tif" data-url="Farfalla_1877_4_5_19.tif" title="Clicca per ingrandire a tutto schermo"></div>
+               </div>
+               <div class="pannello-testo">
+                  <div class="recensione">
+                     <div class="intestazione-testo">
+                        <h2 class="titolo-tei">FARFALLITE BIBLIOGRAFICA</h2>
+                        <div class="separatore-stella">~~~</div>
+                     </div>
+                     <div class="testo-corpo">
+                        <p>
+                           <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Raccolta di bozzetti e ritratti femminili attraverso cui Luigi Capuana sperimenta per la prima volta l'approccio oggettivo e fisiologico alle passioni umane, prima della piena adesione al Verismo.">PROFILI DI DONNA</span>, di <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Scrittore (Mineo 1839 - Catania 1915). Fu prof. di letteratura italiana nel magistero di Roma e poi nell'univ. di Catania. Con G. Verga è il maggiore rappresentante del verismo italiano.">L. Capuana</span>. 
+                           <span class="entita luogo" data-titolo-tooltip="Luoghi" data-info="Città capoluogo della regione Lombardia e dell'omonima città metropolitana. È il maggior centro industriale, commerciale e finanziario d'Italia.">Milano</span>, 
+                           <span class="entita organizzazione" data-titolo-tooltip="Rete culturale" data-info="Casa editrice milanese molto attiva nel secondo Ottocento, fondamentale per la pubblicazione e la diffusione delle prime opere degli autori veristi, tra cui Capuana.">Brigola Editore</span>, 
+                           <span class="scelta-editoriale"><span class="testo-abbr" title="Forma originale abbreviata">L.</span><span class="testo-espansione" title="Scioglimento editoriale">Lire</span></span> 3,50.
+                           </p>
+                     </div>
+                     <div class="testo-corpo">
+                        <p>
+                           <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Personaggio eponimo della novella contenuta nella raccolta &#34;Profili di donna&#34;. È descritta come una donna che, dopo una giovinezza vivace, si chiude in un misticismo rassegnato e malinconico nel tentativo di soffocare le proprie passioni intime e le delusioni amorose.">Delfina</span>, 
+                           <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Personaggio eponimo della novella contenuta nella raccolta &#34;Profili di donna&#34;. Rappresenta la figura mondana e salottiera: Capuana la descrive come una donna la cui apparente leggerezza e civetteria nascondono in realtà un profondo vuoto affettivo e una nevrosi latente.">Giulia</span>, 
+                           <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Personaggio eponimo della novella contenuta nella raccolta &#34;Profili di donna&#34;. Come suggerisce il nome stesso (dal greco &#34;apparizione&#34;), è una figura eterea e sfuggente, quasi un'allucinazione che incarna l'ossessione romantica e l'ideale irraggiungibile del narratore.">Fasma</span>, 
+                           <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Personaggio eponimo della novella contenuta nella raccolta &#34;Profili di donna&#34;. Richiamando il nome della divinità greca della giovinezza, è descritta come una fanciulla dall'innocenza e dalla vitalità prorompenti, osservata dal narratore con attenzione clinica.">Ebe</span>, 
+                           <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Personaggio eponimo della novella contenuta nella raccolta &#34;Profili di donna&#34;. È una figura femminile di origini slave, caratterizzata da un fascino esotico, un temperamento misterioso e un sistema nervoso ipersensibile e quasi morboso.">Jela</span>, 
+                           <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Personaggio eponimo della novella contenuta nella raccolta &#34;Profili di donna&#34;. È una donna dalla costituzione estremamente delicata e dalla spiccata sensibilità (spesso legata alle impressioni artistiche), le cui reazioni emotive vengono trattate quasi come sintomi fisiologici di iperestesia.">Cecilia</span>, ecco 
+                           i nomi delle simpatiche figurine che il <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Scrittore (Mineo 1839 - Catania 1915). Fu prof. di letteratura italiana nel magistero di Roma e poi nell'univ. di Catania. Con G. Verga è il maggiore rappresentante del verismo italiano.">Capuana</span> 
+                           ha visto attraverso lo <span class="entita termine-oss" data-titolo-tooltip="Tema verista" data-info="Studio e osservazione: vocabolario legato all'analisi clinica, allo studio psicologico, ai &#34;documenti umani&#34; e all'osservazione rigorosa della realtà.">spettroscopio</span><a href="#N_1_Farfalla_1877_4_5_Farfallitebibliografica" class="link-glossa" title="Leggi la nota"><sup class="asterisco-glossa">[1]</sup></a> d'una felice fantasia ed ha fissato sulla carta d'una splendida 
+                           edizione <span class="entita organizzazione" data-titolo-tooltip="Rete culturale" data-info="Casa editrice milanese molto attiva nel secondo Ottocento, fondamentale per la pubblicazione e la diffusione delle prime opere degli autori veristi, tra cui Capuana.">Brigola</span>.
+                           </p>
+                        <p>
+                           Felice fantasia scrissi, ma mi spiego che con ciò non intendo misconoscere la <span class="entita termine-vero" data-titolo-tooltip="Tema verista" data-info="Vero e verità: termini riferiti alla ricerca dell'oggettività e della rappresentazione del vero nei testi letterari.">verità</span> 
+                           ch'egli sensibilmente <span class="entita termine-oss" data-titolo-tooltip="Tema verista" data-info="Studio e osservazione: vocabolario legato all'analisi clinica, allo studio psicologico, ai &#34;documenti umani&#34; e all'osservazione rigorosa della realtà.">si studia di portarvi</span>, seguendo 
+                           i desiderati della <span class="entita termine-ismi" data-titolo-tooltip="Tema verista" data-info="Ismi letterari: riferimenti a correnti letterarie e di pensiero come romanticismo, idealismo, naturalismo, realismo, ecc.">nuova scuola</span> di cui intende e sa inspirare 
+                           tutto il carezzevole fascino nell'animo del lettore.
+                           </p>
+                        <p>
+                           <span class="entita termine-rapp" data-titolo-tooltip="Tema verista" data-info="Rappresentazione: riferimento alla necessità di descrivere e far vedere la scena in modo evidente ed oggettivo.">Sul fondo <span class="entita termine-vero" data-titolo-tooltip="Tema verista" data-info="Vero e verità: termini riferiti alla ricerca dell'oggettività e della rappresentazione del vero nei testi letterari.">rigorosamente vero</span> 
+                              egli lavora di <span class="entita termine-arti" data-titolo-tooltip="Tema verista" data-info="Arti visive: riferimenti all'uso di un lessico derivato dalla pittura (es. colorito, tinta, pastello).">contorno</span> e di <span class="entita termine-arti" data-titolo-tooltip="Tema verista" data-info="Arti visive: riferimenti all'uso di un lessico derivato dalla pittura (es. colorito, tinta, pastello).">colorito</span></span> 
+                           con una <span class="entita termine-rapp" data-titolo-tooltip="Tema verista" data-info="Rappresentazione: riferimento alla necessità di descrivere e far vedere la scena in modo evidente ed oggettivo.">magia che non ha dell'arte che il nome</span>, senza 
+                           mostrarne le attaccature, le <span class="scelta-traduzione entita" data-titolo-tooltip="Italiano moderno" data-info="Traduzione: spigolosità"><span class="traduzione-orig">angolosità</span><span class="traduzione-regol">spigolosità</span></span>. 
+                           Egli maneggia il <span class="entita termine-aut" data-titolo-tooltip="Tema verista" data-info="Forma e autorialità: termini relativi allo stile, al soggetto, all'umorismo e alla costruzione formale dell'opera.">pastello</span> come altri 
+                           il <span class="entita termine-aut" data-titolo-tooltip="Tema verista" data-info="Forma e autorialità: termini relativi allo stile, al soggetto, all'umorismo e alla costruzione formale dell'opera.">bulino</span>. E riesce, come pochi riescono.
+                           </p>
+                        <p>
+                           Se la cosa, o almeno il dirlo, non paresse troppo banale vi confesso che i <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Raccolta di bozzetti e ritratti femminili attraverso cui Luigi Capuana sperimenta per la prima volta l'approccio oggettivo e fisiologico alle passioni umane, prima della piena adesione al Verismo.">Profili</span> 
+                           del signor <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Scrittore (Mineo 1839 - Catania 1915). Fu prof. di letteratura italiana nel magistero di Roma e poi nell'univ. di Catania. Con G. Verga è il maggiore rappresentante del verismo italiano.">Capuana</span> sono l'unico 
+                           <span class="entita termine-gen" data-titolo-tooltip="Tema verista" data-info="Genere letterario: lessico che identifica specifiche forme narrative o teatrali (es. romanzo moderno, dramma, novella, racconto).">libro</span> - dopo la <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Opera narrativa contemporanea menzionata dal recensore della Farfalla a titolo di paragone per esaltare l'abilità narrativa dei &#34;Profili di donna&#34; di Capuana.">Madri... per ridere</span> - 
+                           che nel semestre <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: Gennaio"><span class="testo-orig">Gennajo</span><span class="testo-regol">Gennaio</span></span> - Luglio 77 mi abbiano obbligato a leggerli 
+                           tutti d'un fiato come fa uno <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: scolaretto"><span class="testo-orig">scolareto</span><span class="testo-regol">scolaretto</span></span> dei <span class="entita termine-gen" data-titolo-tooltip="Tema verista" data-info="Genere letterario: lessico che identifica specifiche forme narrative o teatrali (es. romanzo moderno, dramma, novella, racconto).">romanzi</span> 
+                           di <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Scrittore (Villers-Cotterêts, Aisne, 1802 - Puys, Dieppe, 1870). Autore popolarissimo di romanzi storici e drammi romantici.">Dumas</span> o di <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Romanziere (Saintes 1815 - Parigi 1887), fondatore della Revue de France, prolifico autore di romanzi d'appendice.">Gonzales</span>.
+                           </p>
+                        <p>
+                           Ecco perchè - non sentendomi disposto alla critica nient'affatto, mi rimetto e sottoscrivo
+                           al molto bene 
+                           che ne disse <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Critico letterario (Milano 1844 - ivi 1913); fervido propugnatore del naturalismo in Italia."><span class="scelta-editoriale"><span class="testo-abbr" title="Forma originale abbreviata">F.</span><span class="testo-espansione" title="Scioglimento editoriale">Felice</span></span> Cameroni</span> 
+                           sul <span class="entita organizzazione" data-titolo-tooltip="Rete culturale" data-info="Quotidiano economico e finanziario, fondato a Milano nell'agosto 1865 da P. Valentini.">Sole</span> di 
+                           <span class="entita luogo" data-titolo-tooltip="Luoghi" data-info="Città capoluogo della regione Lombardia e dell'omonima città metropolitana. È il maggior centro industriale, commerciale e finanziario d'Italia.">Milano</span> e faccio ai miei lettori questa sola raccomandazione :
+                           </p>
+                        <p>
+                           <span class="citazione-inline">« <i>Comprate i</i> <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Raccolta di bozzetti e ritratti femminili attraverso cui Luigi Capuana sperimenta per la prima volta l'approccio oggettivo e fisiologico alle passioni umane, prima della piena adesione al Verismo.">Profili</span> <i>del</i> 
+                              <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Scrittore (Mineo 1839 - Catania 1915). Fu prof. di letteratura italiana nel magistero di Roma e poi nell'univ. di Catania. Con G. Verga è il maggiore rappresentante del verismo italiano.">Capuana</span> <i>— saranno tre ore 
+                                 e mezzo rubate alla <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: noia"><span class="testo-orig">noja</span><span class="testo-regol">noia</span></span>; a un franco<a href="#N_2_Farfalla_1877_4_5_Farfallitebibliografica" class="link-glossa" title="Leggi la nota"><sup class="asterisco-glossa">[2]</sup></a> l'ora.</i> »</span>
+                           </p>
+                     </div>
+                     <div class="contenitore-chiusura">
+                        <div class="chiusura">
+                           <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Pseudonimo redazionale utilizzato dall'autore della rubrica &#34;Farfallite Bibliografica&#34; per la stesura delle recensioni letterarie sulla rivista La Farfalla.">Bibliotecario</span>
+                           </div>
+                     </div>
+                     <div class="sezione-note">
+                        <hr class="divisore-sezione">
+                        <h3>Note editoriali</h3>
+                        <ol class="lista-note">
+                           <li id="N_1_Farfalla_1877_4_5_Farfallitebibliografica"><strong>spettroscopio: </strong><span class="testo-nota">Lo spettroscopio è uno strumento ottico scientifico. Usarlo come metafora per descrivere
+                                 il modo in cui Capuana analizza l'animo femminile è un chiaro segnale della mentalità
+                                 Positivista: la letteratura inizia a usare il lessico delle scienze esatte per studiare
+                                 la società.</span></li>
+                           <li id="N_2_Farfalla_1877_4_5_Farfallitebibliografica"><strong>un franco: </strong><span class="testo-nota">Moneta in uso all'epoca (franco francese o italiano pre-lira consolidata), utilizzata
+                                 qui colloquialmente per sottolineare il basso costo del libro e il suo alto rendimento
+                                 in termini di intrattenimento.</span></li>
+                        </ol>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <hr class="divisore-sezione">
+         <section id="arte">
+            <h1>L'arte nel vero</h1>
+            <div class="dati-meta"><strong>Autore: </strong>F. Uda | <strong>Rivista: </strong>La Farfalla</div>
+            <div class="contenitore-didattico">
+               <div class="pannello-info">
+                  <div class="dettagli-meta"><strong class="titolo-meta">Dettagli della codifica:</strong><ul>
+                        <li><b>Codificatore: </b>Livia Giorni</li>
+                     </ul>
+                  </div>
+                  <div class="contenitore-facs">
+                     <h3 class="titolo-facs">Immagine originale</h3><img class="anteprima-img-facs" src="Farfalla_1877_3_11_110.tif" data-url="Farfalla_1877_3_11_110.tif" title="Clicca per ingrandire a tutto schermo"></div>
+               </div>
+               <div class="pannello-testo">
+                  <div class="box-regesto">
+                     <h4>Regesto</h4>
+                     <p>
+                        <p>Componimento in versi in cui l'autore riflette sul concetto di realismo e verismo
+                           nell'arte. Attraverso una serie di contrasti tra il bello e il brutto, l'ideale e
+                           il reale, la virtù e il vizio, il poeta critica l'eccesso di un'arte che indugia solo
+                           sugli aspetti più degradanti e oscuri dell'esistenza umana (come l'ospedale, la prostituzione,
+                           il lupanare), sostenendo che la vera armonia risiede in un equilibrio, in un chiaroscuro
+                           dove l'affetto del "maestro" possa ricongiungere il brutto e il bello.</p>
+                     </p>
+                  </div>
+                  <div class="poesia">
+                     <div class="intestazione-testo">
+                        <h2 class="titolo-tei">L'ARTE NEL VERO</h2>
+                        <div class="separatore-stella">~~~~~</div>
+                     </div>
+                     <div class="testo-corpo">
+                        <div class="strofa">
+                           <div class="verso">No, credere non voglio che sia spenta</div>
+                           <div class="verso">La virtù sulla terra,</div>
+                           <div class="verso"><span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: Né"><span class="testo-orig">Nè</span><span class="testo-regol">Né</span></span> le rimanga un alito</div>
+                           <div class="verso">D'<span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: amore"><span class="testo-orig">amor</span><span class="testo-regol">amore</span></span>, di fede. È vero, c'è la guerra</div>
+                           <div class="verso">Tremenda, inesorabile</div>
+                           <div class="verso">Contro ogni affetto generoso e santo,</div>
+                           <div class="verso">Ed il brutto predomina</div>
+                           <div class="verso">Sovranamente, ed il crearlo è vanto.</div>
+                        </div>
+                        <div class="strofa">
+                           <div class="verso">Ma che perciò ? la <span class="entita termine-ismi" data-titolo-tooltip="Tema verista" data-info="Ismi letterari: riferimenti a correnti letterarie e di pensiero come romanticismo, idealismo, naturalismo, realismo, ecc.">vera Scuola dell'arte</span> ingombra</div>
+                           <div class="verso">Sarà solo di ladri e di <span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info=""><span class="scelta-traduzione entita" data-titolo-tooltip="Italiano moderno" data-info="Traduzione: prostitute"><span class="traduzione-orig">sgualdrine</span><span class="traduzione-regol">prostitute</span></span></span> ?</div>
+                           <div class="verso">Il mondo è tutto una nota stonata</div>
+                           <div class="verso">O morte son le melodie divine ?</div>
+                           <div class="verso">Una massa addensata</div>
+                           <div class="verso">Ed una <span class="entita termine-arti" data-titolo-tooltip="Tema verista" data-info="Arti visive: riferimenti all'uso di un lessico derivato dalla pittura (es. colorito, tinta, pastello).">tinta nera</span></div>
+                           <div class="verso">Han da <span class="entita termine-rapp" data-titolo-tooltip="Tema verista" data-info="Rappresentazione: riferimento alla necessità di descrivere e far vedere la scena in modo evidente ed oggettivo.">formare il <span class="entita termine-arti" data-titolo-tooltip="Tema verista" data-info="Arti visive: riferimenti all'uso di un lessico derivato dalla pittura (es. colorito, tinta, pastello).">quadro</span></span> ? O le tempeste</div>
+                           <div class="verso">Regnan sol sull'Oceano</div>
+                           <div class="verso">E non <span class="scelta-traduzione entita" data-titolo-tooltip="Italiano moderno" data-info="Traduzione: ancora"><span class="traduzione-orig">anco</span><span class="traduzione-regol">ancora</span></span> la calma e i flutti azzurri ?</div>
+                           <div class="verso">Nella famiglia non abbiam più feste,</div>
+                           <div class="verso">Fior nei giardini, e nei boschi susurri ?</div>
+                        </div>
+                        <div class="strofa">
+                           <div class="verso">Siccome nella vita, eterna sempre</div>
+                           <div class="verso">È la lotta nell'arte ;</div>
+                           <div class="verso">Colà v' è il bene e il male,</div>
+                           <div class="verso">Qui - secondo le tempre</div>
+                           <div class="verso">Di ciascuno ed il punto da cui parte -</div>
+                           <div class="verso">Il <span class="entita termine-vero" data-titolo-tooltip="Tema verista" data-info="Vero e verità: termini riferiti alla ricerca dell'oggettività e della rappresentazione del vero nei testi letterari.">real</span>, l'<span class="entita termine-ismi" data-titolo-tooltip="Tema verista" data-info="Ismi letterari: riferimenti a correnti letterarie e di pensiero come romanticismo, idealismo, naturalismo, realismo, ecc.">ideale</span>,</div>
+                           <div class="verso">È una <span class="entita termine-rapp" data-titolo-tooltip="Tema verista" data-info="Rappresentazione: riferimento alla necessità di descrivere e far vedere la scena in modo evidente ed oggettivo.">perpetua antitesi</span>,</div>
+                           <div class="verso"><span class="entita termine-arti" data-titolo-tooltip="Tema verista" data-info="Arti visive: riferimenti all'uso di un lessico derivato dalla pittura (es. colorito, tinta, pastello).">Gioco d'ombre e di luce</span> ;</div>
+                           <div class="verso"><span class="entita termine-arti" data-titolo-tooltip="Tema verista" data-info="Arti visive: riferimenti all'uso di un lessico derivato dalla pittura (es. colorito, tinta, pastello).">Raggio di sol</span> tra i <span class="scelta-traduzione entita" data-titolo-tooltip="Italiano moderno" data-info="Traduzione: nuvole"><span class="traduzione-orig">nugoli</span><span class="traduzione-regol">nuvole</span></span></div>
+                           <div class="verso">L'<span class="entita termine-arti" data-titolo-tooltip="Tema verista" data-info="Arti visive: riferimenti all'uso di un lessico derivato dalla pittura (es. colorito, tinta, pastello).">arcobalen</span> produce ;</div>
+                           <div class="verso">Col vizio andando attorno</div>
+                           <div class="verso">L' Eleganza un bel giorno</div>
+                           <div class="verso">Ha partorito mostri,</div>
+                           <div class="verso">E le fanciulle amabili</div>
+                           <div class="verso"><span class="scelta-traduzione entita" data-titolo-tooltip="Italiano moderno" data-info="Traduzione: Biascicano"><span class="traduzione-orig">Biasciano</span><span class="traduzione-regol">Biascicano</span></span><a href="#N_1_Farfalla_1877_3_11_Lartenelvero" class="link-glossa" title="Leggi la nota"><sup class="asterisco-glossa">[1]</sup></a> a settant'anni i paternostri.</div>
+                        </div>
+                        <div class="separatore-stella"></div>
+                        <div class="strofa">
+                           <div class="verso">Or l'<span class="entita termine-rapp" data-titolo-tooltip="Tema verista" data-info="Rappresentazione: riferimento alla necessità di descrivere e far vedere la scena in modo evidente ed oggettivo.">evidenza e il bello</span></div>
+                           <div class="verso">Soltanto nell'<span class="scelta-traduzione entita" data-titolo-tooltip="Italiano moderno" data-info="Traduzione: camera da letto"><span class="traduzione-orig">alcova</span><span class="traduzione-regol">camera da letto</span></span></div>
+                           <div class="verso">E nel piccante del nudo si trova ;</div>
+                           <div class="verso">Se più sa di <span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info="">bordello</span></div>
+                           <div class="verso">Più attraente è la <span class="entita termine-nar" data-titolo-tooltip="Tema verista" data-info="Narrazione: riferimenti agli elementi strutturali del testo, come la scena, lo sviluppo, l'intreccio e i movimenti testuali.">scena</span> ;</div>
+                           <div class="verso"><span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info="">L'adulterio e il marito <span class="scelta-traduzione entita" data-titolo-tooltip="Italiano moderno" data-info="Traduzione: ingannato"><span class="traduzione-orig">corbellato</span><span class="traduzione-regol">ingannato</span></span></span><a href="#N_2_Farfalla_1877_3_11_Lartenelvero" class="link-glossa" title="Leggi la nota"><sup class="asterisco-glossa">[2]</sup></a>,</div>
+                           <div class="verso"><span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info="">La moglie matta e la fanciulla oscena</span>,</div>
+                           <div class="verso">L'effluvio del bucato</div>
+                           <div class="verso">E i <span class="scelta-traduzione entita" data-titolo-tooltip="Italiano moderno" data-info="Traduzione: biancheria"><span class="traduzione-orig">pannilini</span><span class="traduzione-regol">biancheria</span></span> sudici</div>
+                           <div class="verso">Ci fanno un'arte nova.</div>
+                        </div>
+                        <div class="strofa">
+                           <div class="verso">La Fanciulla</div>
+                           <div class="verso">Che i cenci non baratta</div>
+                           <div class="verso">Coi denari del ricco o non s'imbratta,</div>
+                           <div class="verso">O una povera culla,</div>
+                           <div class="verso">Od una moglie onesta</div>
+                           <div class="verso">Non stanno più nel <span class="entita termine-vero" data-titolo-tooltip="Tema verista" data-info="Vero e verità: termini riferiti alla ricerca dell'oggettività e della rappresentazione del vero nei testi letterari.">vero</span> ; e la modesta</div>
+                           <div class="verso">Virtù che soffre tacita</div>
+                           <div class="verso">E lotta contro il male</div>
+                           <div class="verso">È cosa <span class="entita termine-rapp" data-titolo-tooltip="Tema verista" data-info="Rappresentazione: riferimento alla necessità di descrivere e far vedere la scena in modo evidente ed oggettivo.">inverosimile e <span class="entita termine-ismi" data-titolo-tooltip="Tema verista" data-info="Ismi letterari: riferimenti a correnti letterarie e di pensiero come romanticismo, idealismo, naturalismo, realismo, ecc.">ideale</span></span>,</div>
+                           <div class="verso">Oh ! guai se in quell'opaco, orrido mondo</div>
+                           <div class="verso">Che si <span class="entita termine-rapp" data-titolo-tooltip="Tema verista" data-info="Rappresentazione: riferimento alla necessità di descrivere e far vedere la scena in modo evidente ed oggettivo.">descrive</span> a fondo</div>
+                           <div class="verso">Nascon rose e viole ;</div>
+                           <div class="verso">Guai se in quel <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: buio"><span class="testo-orig">bujo</span><span class="testo-regol">buio</span></span> penetra</div>
+                           <div class="verso">Un sol raggio di sole.</div>
+                        </div>
+                        <div class="strofa">
+                           <div class="verso">L'arte è il brutto, il lascivo è l'<span class="entita termine-rapp" data-titolo-tooltip="Tema verista" data-info="Rappresentazione: riferimento alla necessità di descrivere e far vedere la scena in modo evidente ed oggettivo.">evidenza</span>,</div>
+                           <div class="verso">E la <span class="entita termine-aut" data-titolo-tooltip="Tema verista" data-info="Forma e autorialità: termini relativi allo stile, al soggetto, all'umorismo e alla costruzione formale dell'opera.">prosa rimata è poesia</span> ;</div>
+                           <div class="verso">Profonda, irresistibile <span class="scelta-traduzione entita" data-titolo-tooltip="Italiano moderno" data-info="Traduzione: fascino"><span class="traduzione-orig">malia</span><span class="traduzione-regol">fascino</span></span></div>
+                           <div class="verso">La <span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info="">donna prostituta e gl'<span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: gli illegittimi"><span class="testo-orig">illegittimi</span><span class="testo-regol">gli illegittimi</span></span></span></div>
+                           <div class="verso"><span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info="">Figli</span> - e laggiù, la <span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info="">forca e l'ospedale</span>, -</div>
+                           <div class="verso">Ecco l'arte, ecco il <span class="entita termine-vero" data-titolo-tooltip="Tema verista" data-info="Vero e verità: termini riferiti alla ricerca dell'oggettività e della rappresentazione del vero nei testi letterari.">vero</span>, ecco il <span class="entita termine-vero" data-titolo-tooltip="Tema verista" data-info="Vero e verità: termini riferiti alla ricerca dell'oggettività e della rappresentazione del vero nei testi letterari.">reale</span>.</div>
+                           <div class="verso">Ah ! no ; l'arte è l'antitesi,</div>
+                           <div class="verso">La vita è il <span class="entita termine-arti" data-titolo-tooltip="Tema verista" data-info="Arti visive: riferimenti all'uso di un lessico derivato dalla pittura (es. colorito, tinta, pastello).">chiaroscuro</span>,</div>
+                           <div class="verso">S'alternano nel circolo</div>
+                           <div class="verso">Il candido e l'impuro ;</div>
+                           <div class="verso">Il diavolo coi santi</div>
+                           <div class="verso">E i pigmei coi giganti</div>
+                           <div class="verso">Si corrono e rincorrono</div>
+                           <div class="verso">Nell'armonia del tutto,</div>
+                           <div class="verso">Producendo ora il bello e ora il brutto.</div>
+                           <div class="verso">Per chi ha il senso squisito</div>
+                           <div class="verso">Così il <span class="entita termine-arti" data-titolo-tooltip="Tema verista" data-info="Arti visive: riferimenti all'uso di un lessico derivato dalla pittura (es. colorito, tinta, pastello).">quadro</span> è finito,</div>
+                           <div class="verso">Sol che a farlo perfetto</div>
+                           <div class="verso">Manca ancora il maestro - ed è l'affetto.</div>
+                        </div>
+                     </div>
+                     <div class="contenitore-chiusura">
+                        <div class="data-chiusura">
+                           <span class="entita luogo" data-titolo-tooltip="Luoghi" data-info="Città capoluogo della regione Lombardia e dell'omonima città metropolitana. È il maggior centro industriale, commerciale e finanziario d'Italia.">Milano</span>, 24 aprile 1877.
+                           </div>
+                        <div class="chiusura">
+                           <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Scrittore (Cagliari 1832 - Milano 1900). Fratello di Michele; scrisse commedie, drammi e versi.">
+                              <span class="scelta-editoriale"><span class="testo-abbr" title="Forma originale abbreviata">F.</span><span class="testo-espansione" title="Scioglimento editoriale">Felice</span></span> Uda
+                              </span>
+                           </div>
+                     </div>
+                     <div class="sezione-note">
+                        <hr class="divisore-sezione">
+                        <h3>Note editoriali</h3>
+                        <ol class="lista-note">
+                           <li id="N_1_Farfalla_1877_3_11_Lartenelvero"><strong>Biasciano: </strong><span class="testo-nota">Termine popolare e colloquiale inserito in poesia per polemizzare contro le derive
+                                 naturaliste.</span></li>
+                           <li id="N_2_Farfalla_1877_3_11_Lartenelvero"><strong>L'adulterio e il marito corbellato: </strong><span class="testo-nota">Termine gergale e comico per indicare un uomo deriso o tradito.</span></li>
+                        </ol>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <hr class="divisore-sezione">
+         <section id="bibliografia">
+            <h1>Recensione a Émile Zola, L'Assommoir</h1>
+            <div class="dati-meta"><strong>Autore: </strong>Nimpha | <strong>Rivista: </strong>La Farfalla</div>
+            <div class="contenitore-didattico">
+               <div class="pannello-info">
+                  <div class="dettagli-meta"><strong class="titolo-meta">Dettagli della codifica:</strong><ul>
+                        <li><b>Codificatore: </b>Livia Giorni</li>
+                     </ul>
+                  </div>
+                  <div class="contenitore-facs">
+                     <h3 class="titolo-facs">Immagine originale</h3><img class="anteprima-img-facs" src="Farfalla_1877_3_5_40.tif" data-url="Farfalla_1877_3_5_40.tif" title="Clicca per ingrandire a tutto schermo"></div>
+                  <div class="contenitore-facs">
+                     <h3 class="titolo-facs">Immagine originale</h3><img class="anteprima-img-facs" src="Farfalla_1877_3_5_42.tif" data-url="Farfalla_1877_3_5_42.tif" title="Clicca per ingrandire a tutto schermo"></div>
+               </div>
+               <div class="pannello-testo">
+                  <div class="recensione">
+                     <div class="intestazione-testo">
+                        <h2 class="titolo-tei">BIBLIOGRAFIA</h2>
+                        <div class="separatore-stella">~~~</div>
+                     </div>
+                     <div class="testo-corpo">
+                        <ul class="lista-bibl">
+                           <li class="voce-bibl">
+                              <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Scrittore francese (Parigi 1840 - ivi 1902). È il rappresentante più noto e l'esponente più consapevole del naturalismo francese.">Emilio Zola</span>. —
+                              <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Romanzo (1877) dello scrittore francese É. Zola. Settimo del ciclo dei Rougon-Macquart, vi si narra la vita e la fine misera della lavandaia Gervaise e del marito Coupeau."><span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: L'assommoir"><span class="testo-orig">L' assommoir</span><span class="testo-regol">L'assommoir</span></span></span>.
+                              <span class="entita luogo" data-titolo-tooltip="Luoghi" data-info="Capitale della Francia, capoluogo della regione Île-de-France. Sorge nel cuore del Bacino Parigino, sulle rive della Senna.">Paris</span>.
+                              <span class="entita organizzazione" data-titolo-tooltip="Rete culturale" data-info="(Gervais Charpentier): Editore (Parigi 1805 - ivi 1871). Fondò nel 1838 la &#34;Bibliothèque Charpentier&#34;, che diffuse a basso prezzo i capolavori.">Charpentier &amp; Comp. editori</span>
+                              <span class="scelta-editoriale"><span class="testo-abbr" title="Forma originale abbreviata">L.</span><span class="testo-espansione" title="Scioglimento editoriale">Lire</span></span> 3,50.
+                              </li>
+                        </ul>
+                        <p>
+                           Avete mai <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: visto"><span class="testo-orig">veduto</span><span class="testo-regol">visto</span></span> un <span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info="">padrone-spazzacamino</span> inferocire
+                           contro lo <span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info="">sgraziato piccino ch'egli ha comprato</span>
+                           e cui batte regolarmente ogni mattina ed ogni sera?
+                           </p>
+                        <p>
+                           Avete mai visto il <span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info=""><span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: sfruttatore"><span class="testo-orig">lenone</span><span class="testo-regol">sfruttatore</span></span> del <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: bordello"><span class="testo-orig">lupanare</span><span class="testo-regol">bordello</span></span></span> il quale
+                           schiaffeggia impunemente la <span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info="">miserabile</span> che non ha
+                           <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: saputo guadagnare"><span class="testo-orig">saputa guadagnare</span><span class="testo-regol">saputo guadagnare</span></span> la sua giornata?
+                           </p>
+                        <p>
+                           Avete mai visto un figlio alzar la mano sulla sua
+                           <span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info="">vecchia madre</span>, <span class="entita termine-emarg" data-titolo-tooltip="Tema verista" data-info=""><span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: insultando"><span class="testo-orig">vituperando</span><span class="testo-regol">insultando</span></span></span> <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: i suoi bianchi capelli con le"><span class="testo-orig">i di lei bianchi capegli
+                                 colle</span><span class="testo-regol">i suoi bianchi capelli con le</span></span> più orrende <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: offese"><span class="testo-orig">contumelie</span><span class="testo-regol">offese</span></span>...?
+                           </p>
+                        <p>
+                           Ebbene se avete <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: visto"><span class="testo-orig">veduto</span><span class="testo-regol">visto</span></span> tutto questo; ebbene, allora
+                           dei tre orrori diversi da voi provati fate un <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: orrore"><span class="testo-orig">orror</span><span class="testo-regol">orrore</span></span>
+                           solo: e questo orrore, in <span class="entita termine-vero" data-titolo-tooltip="Tema verista" data-info="Vero e verità: termini riferiti alla ricerca dell'oggettività e della rappresentazione del vero nei testi letterari.">verità</span> io vi dico, non sarà
+                           ancora la millesima parte dell'orrore provato da me
+                           alla lettura del nuovo <span class="entita termine-gen" data-titolo-tooltip="Tema verista" data-info="Genere letterario: lessico che identifica specifiche forme narrative o teatrali (es. romanzo moderno, dramma, novella, racconto).">romanzo</span> <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Romanzo (1877) dello scrittore francese É. Zola. Settimo del ciclo dei Rougon-Macquart, vi si narra la vita e la fine misera della lavandaia Gervaise e del marito Coupeau."><span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: L'assommoir"><span class="testo-orig">L' assommoir</span><span class="testo-regol">L'assommoir</span></span></span>, <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: poco fa"><span class="testo-orig">testè</span><span class="testo-regol">poco fa</span></span>
+                           pubblicato da <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Scrittore francese (Parigi 1840 - ivi 1902). È il rappresentante più noto e l'esponente più consapevole del naturalismo francese.">Emilio Zola</span>, il valentissimo <span class="entita termine-ismi" data-titolo-tooltip="Tema verista" data-info="Ismi letterari: riferimenti a correnti letterarie e di pensiero come romanticismo, idealismo, naturalismo, realismo, ecc.">caposcuola</span>
+                           del <span class="entita termine-ismi" data-titolo-tooltip="Tema verista" data-info="Ismi letterari: riferimenti a correnti letterarie e di pensiero come romanticismo, idealismo, naturalismo, realismo, ecc.">genere realista</span>.
+                           </p>
+                        <p>
+                           Dieci volte ho <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: gettato"><span class="testo-orig">gittato</span><span class="testo-regol">gettato</span></span> via il <span class="entita termine-gen" data-titolo-tooltip="Tema verista" data-info="Genere letterario: lessico che identifica specifiche forme narrative o teatrali (es. romanzo moderno, dramma, novella, racconto).">libro</span>, perchè, qui, al
+                           cuore, mi sentiva un <span class="entita termine-vero" data-titolo-tooltip="Tema verista" data-info="Vero e verità: termini riferiti alla ricerca dell'oggettività e della rappresentazione del vero nei testi letterari.">vero dolor fisico</span>: e dieci volte
+                           l'ho ripreso, per quel medesimo senso di acre volontà
+                           che spinge il ferito a tentare <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: con l'"><span class="testo-orig">coll'</span><span class="testo-regol">con l'</span></span>unghia l'epidermide
+                           d'una piaga non <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: ancora"><span class="testo-orig">peranco</span><span class="testo-regol">ancora</span></span> cicatrizzata...
+                           </p>
+                        <div class="separatore-stella">*</div>
+                        <p>
+                           Quanto a <span class="entita termine-aut" data-titolo-tooltip="Tema verista" data-info="Forma e autorialità: termini relativi allo stile, al soggetto, all'umorismo e alla costruzione formale dell'opera.">forma</span> <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Romanzo (1877) dello scrittore francese É. Zola. Settimo del ciclo dei Rougon-Macquart, vi si narra la vita e la fine misera della lavandaia Gervaise e del marito Coupeau.">l'Assommoir</span> è uno dei <span class="entita termine-gen" data-titolo-tooltip="Tema verista" data-info="Genere letterario: lessico che identifica specifiche forme narrative o teatrali (es. romanzo moderno, dramma, novella, racconto).">libri</span> meglio
+                           riusciti. <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Secondo romanzo del ciclo dei Rougon-Macquart, focalizzato sulla speculazione edilizia parigina sotto il Secondo Impero e sulla corruzione della borghesia arricchita.">La Curée</span>, <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Terzo romanzo del ciclo dei Rougon-Macquart, celebre per le sue vivide descrizioni delle Halles (i grandi mercati coperti di Parigi) e per l'indagine dello scontro tra classi abbienti (&#34;i grassi&#34;) e classi povere (&#34;i magri&#34;).">Ventre de Paris</span>, <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Ciclo di 20 romanzi (1871-93) dello scrittore fr. É. Zola, nei quali l'autore ha inteso scrivere la storia naturale e sociale di una famiglia sotto il Secondo Impero.">i Rougon-Macquart
+                              </span> non hanno neppure la metà del <span class="entita termine-nar" data-titolo-tooltip="Tema verista" data-info="Narrazione: riferimenti agli elementi strutturali del testo, come la scena, lo sviluppo, l'intreccio e i movimenti testuali.">movimento</span>
+                           dello <span class="entita termine-nar" data-titolo-tooltip="Tema verista" data-info="Narrazione: riferimenti agli elementi strutturali del testo, come la scena, lo sviluppo, l'intreccio e i movimenti testuali.">slancio che vivifica</span> questa <span class="entita termine-nar" data-titolo-tooltip="Tema verista" data-info="Narrazione: riferimenti agli elementi strutturali del testo, come la scena, lo sviluppo, l'intreccio e i movimenti testuali.">primizia</span> che ci manda
+                           la letteratura francese...
+                           </p>
+                        <p>
+                           Oggi <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Romanzo (1877) dello scrittore francese É. Zola. Settimo del ciclo dei Rougon-Macquart, vi si narra la vita e la fine misera della lavandaia Gervaise e del marito Coupeau.">l'Assommoir</span> è da alcuno portato ai <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: settimo cielo"><span class="testo-orig">settecieli</span><span class="testo-regol">settimo cielo</span></span>: da altri <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: sprofondato"><span class="testo-orig">adimato</span><span class="testo-regol">sprofondato</span></span> agli abissi.
+                           </p>
+                        <p>
+                           <span class="scelta-ortografica entita" data-titolo-tooltip="Ortografia storica" data-info="Forma normalizzata moderna: L'avvenire"><span class="testo-orig">L' avvenire</span><span class="testo-regol">L'avvenire</span></span> sarà più categorico e deciso. Esso dirà
+                           che <span class="entita opera" data-titolo-tooltip="Riferimento bibliografico" data-info="Romanzo (1877) dello scrittore francese É. Zola. Settimo del ciclo dei Rougon-Macquart, vi si narra la vita e la fine misera della lavandaia Gervaise e del marito Coupeau.">l'Assommoir</span> era ai giorni nostri un libro necessario.
+                           </p>
+                        <div class="contenitore-chiusura">
+                           <div class="chiusura">
+                              <span class="entita persona" data-titolo-tooltip="Dizionario prosopografico" data-info="Pseudonimo utilizzato dal redattore che ha firmato l'ampia e appassionata recensione de L'Assommoir di Zola nella rubrica bibliografica della rivista La Farfalla.">Nimpha</span>.
+                              </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer>
+         <p>Progetto COVerLeSS<br>A cura di Livia Giorni mat. 674163<br>Progetto di Codifica di Testi a.a. 25/26</p>
+      </footer>
+      <div id="tooltip-fluttuante" class="tooltip-fluttuante"></div>
+   </body>
+</html>

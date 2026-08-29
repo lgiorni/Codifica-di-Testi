@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lista di entità nominate per i testi codificati in COVerLeSS: i luoghi</title>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">Digital edition - <date when="2026-60">June 2026</date></edition>
+            <respStmt>
+               <resp>Conversione TEI P5 a cura di</resp>
+               <name xml:id="LG">Livia Giorni</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digital edition project coordinated by</resp>
+               <name xml:id="DS">Daria Spampinato</name>
+               <name xml:id="ADS">Antonio Di Silvestro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding model by</resp>
+               <name resp="#DS">Daria Spampinato</name>
+               <name xml:id="LM">Laura Mazzagufo</name>
+               <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+               <name xml:id="DB">Denise Bruno</name>
+            </respStmt>
+            <funder>NextGenerationEU</funder>
+            <funder>Ministero dell'Università e della Ricerca</funder>
+            <funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+            <funder ref="coverlessListOrganization.xml#CNR">CNR - Consiglio Nazionale delle Ricerche</funder>
+            <funder ref="coverlessListOrganization.xml#UniCT">Università di Catania</funder>
+         </editionStmt>
+         <publicationStmt>
+            <authority ref="coverlessListOrganization.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+            <authority ref="coverlessListOrganization.xml#UniCT">Università di Catania</authority>
+            <date when="2025">2025</date>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+            </availability>
+            <idno type="filename">coverlessListPlace.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            
+<listPlace xml:id="ListPlace">
+                <place xml:id="CA" type="real">
+                    <placeName ref="https://www.geonames.org/2525473/">Cagliari</placeName>
+                    <country key="IT">Italia</country>
+                    <note source="https://www.treccani.it/enciclopedia/cagliari/"><p>Città capoluogo della regione Sardegna e dell'omonima città metropolitana. Sorge all'estremità meridionale del Campidano.</p></note>
+                </place>
+                <place xml:id="MI" type="real">
+                    <placeName ref="https://www.geonames.org/3173435/">Milano</placeName>
+                    <country key="IT">Italia</country>
+                    <note source="https://www.treccani.it/enciclopedia/milano/"><p>Città capoluogo della regione Lombardia e dell'omonima città metropolitana. È il maggior centro industriale, commerciale e finanziario d'Italia.</p></note>
+                </place>
+                <place xml:id="CT" type="real">
+                    <placeName ref="https://www.geonames.org/2525068/">Catania</placeName>
+                    <country key="IT">Italia</country>
+                    <note source="https://www.treccani.it/enciclopedia/catania/"><p>Città capoluogo dell'omonima città metropolitana in Sicilia. Sorge ai piedi del versante meridionale dell'Etna.</p></note>
+                </place>
+                <place xml:id="mineo" type="real">
+                    <placeName ref="https://www.geonames.org/2524167/">Mineo</placeName>
+                    <country key="IT">Italia</country>
+                    <note source="https://www.treccani.it/enciclopedia/mineo/"><p>Comune in provincia di Catania, situato sui rilievi nord-occidentali dei Monti Iblei.</p></note>
+                </place>
+                <place xml:id="RM" type="real">
+                    <placeName ref="https://www.geonames.org/3169070/">Roma</placeName>
+                    <country key="IT">Italia</country>
+                    <note source="https://www.treccani.it/enciclopedia/roma/"><p>Capitale della Repubblica Italiana, capoluogo della regione Lazio e dell'omonima città metropolitana.</p></note>
+                </place>
+                <place xml:id="villerscotterets" type="real">
+                    <placeName ref="https://www.geonames.org/2970598/">Villers-Cotterêts</placeName>
+                    <country key="FR">Francia</country>
+                    <note><p>Cittadina francese nel dipartimento dell'Aisne, città natale di Alexandre Dumas.</p></note>
+                </place>
+                <place xml:id="puys" type="real">
+                    <placeName ref="https://www.geonames.org/2985392/">Puys (Dieppe)</placeName>
+                    <country key="FR">Francia</country>
+                    <note><p>Luogo di morte dello scrittore francese Alexandre Dumas.</p></note>
+                </place>
+                <place xml:id="saintes" type="real">
+                    <placeName ref="https://www.geonames.org/2976735/">Saintes</placeName>
+                    <country key="FR">Francia</country>
+                    <note source="https://www.treccani.it/enciclopedia/saintes/"><p>Città della Francia, nel dipartimento della Charente-Maritime, situata sulle due rive della Charente.</p></note>
+                </place>
+                <place xml:id="PAR" type="real">
+                    <placeName ref="https://www.geonames.org/2988507/">Parigi</placeName>
+                    <country key="FR">Francia</country>
+                    <note source="https://www.treccani.it/enciclopedia/parigi/"><p>Capitale della Francia, capoluogo della regione Île-de-France. Sorge nel cuore del Bacino Parigino, sulle rive della Senna.</p></note>
+                </place>
+            </listPlace>
+
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Questo file contiene la lista completa dei luoghi codificati per il progetto COVerLeSS.</p>
+      </body>
+   </text>
+</TEI>

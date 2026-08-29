@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+					Lista di entità nominate per i testi codificati in COVerLeSS: gli enti e le istituzioni
+				</title>
+					<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name xml:id="LG">Livia Giorni</name>					
+				</respStmt>	
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">Digital edition - <date when="2026-60">June 2026</date></edition>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="DS">Daria Spampinato</name>
+					<name xml:id="ADS">Antonio Di Silvestro</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding model by</resp>
+					<name resp="#DS">Daria Spampinato</name>
+					<name xml:id="LM">Laura Mazzagufo</name>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DB">Denise Bruno</name>
+				</respStmt>
+				<funder>NextGenerationEU</funder>
+				<funder>Ministero dell'Università e della Ricerca</funder>
+				<funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+				<funder ref="coverlessListOrganization.xml#CNR">CNR - Consiglio Nazionale delle Ricerche</funder>
+				<funder ref="coverlessListOrganization.xml#UniCT">Università di Catania</funder>
+			</editionStmt>
+			<publicationStmt>
+				<!-- Dati di diffusione e distribuzione dell'edizione -->
+                <authority ref="coverlessListOrganization.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+                <authority ref="coverlessListOrganization.xml#UniCT">Università di Catania</authority>
+                <date when="2025">2025</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+                </availability>
+                <idno type="filename">coverlessListOrganization.xml</idno>
+			</publicationStmt>
+			<sourceDesc>
+			<listOrg xml:id="ListOrganization">
+				<org xml:id="CNR" type="institution">
+					<orgName>Consiglio Nazionale delle Ricerche</orgName>
+					<placeName ref="coverlessListPlace.xml#RM">Roma</placeName>
+					<desc source="https://www.treccani.it/enciclopedia/consiglio-nazionale-delle-ricerche/">Consiglio Nazionale delle Ricerche. Ente nazionale di ricerca con competenza scientifica generale, istituito nel 1923.</desc>
+				</org>
+				<org xml:id="ISTC" type="institution">
+					<orgName>Istituto di Scienze e Tecnologie della Cognizione</orgName>
+					<placeName ref="coverlessListPlace.xml#RM">Roma</placeName>
+					<desc>Istituto del CNR specializzato in scienze cognitive, linguistica computazionale e humanities digitali.</desc>
+				</org>
+				<org xml:id="UniCT" type="university">
+					<orgName>Università degli Studi di Catania</orgName>
+					<placeName ref="coverlessListPlace.xml#CT">Catania</placeName>
+					<desc>Ateneo italiano co-promotore del progetto COVerLeSS e polo fondamentale per gli studi sul Verismo.</desc>
+				</org>
+				<org xml:id="timon" type="publisher">
+					<orgName>Tipografia Timon</orgName>
+					<placeName ref="coverlessListPlace.xml#CA">Cagliari</placeName>
+					<desc>Storica tipografia sarda presso la quale veniva stampata la rivista "La Farfalla".</desc>
+				</org>
+				<org xml:id="brigolaEditore" type="publisher">
+					<orgName>Brigola Editore</orgName>
+					<placeName ref="coverlessListPlace.xml#MI">Milano</placeName>
+					<desc>Casa editrice milanese molto attiva nel secondo Ottocento, fondamentale per la pubblicazione e la diffusione delle prime opere degli autori veristi, tra cui Capuana.</desc>
+				</org>
+				<org xml:id="charpentier" type="publisher">
+					<orgName>Charpentier &amp; Comp. editori</orgName>
+					<placeName ref="coverlessListPlace.xml#PAR">Parigi</placeName>
+					<desc source="https://www.treccani.it/enciclopedia/gervais-charpentier/">(Gervais Charpentier): Editore (Parigi 1805 - ivi 1871). Fondò nel 1838 la "Bibliothèque Charpentier", che diffuse a basso prezzo i capolavori.</desc>
+				</org>
+				<org xml:id="sole" type="journal">
+					<orgName>Il Sole</orgName>
+					<placeName ref="coverlessListPlace.xml#MI">Milano</placeName>
+					<desc source="https://www.treccani.it/enciclopedia/il-sole/">Quotidiano economico e finanziario, fondato a Milano nell'agosto 1865 da P. Valentini.</desc>
+				</org>
+			</listOrg>
+		</sourceDesc>
+					</fileDesc>
+	</teiHeader>
+		<text>
+		<body>
+			<p>Questo file contiene la lista completa delle organizzazioni codificate per il progetto COVerLeSS.</p>
+		</body>
+	</text>
+</TEI>

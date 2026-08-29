@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+					Lista di entità nominate per i testi codificati in COVerLeSS: temi e tassonomia
+				</title>
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">Digital edition - <date when="2026-06">June 2026</date></edition>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name xml:id="LG">Livia Giorni</name>
+				</respStmt>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="DS">Daria Spampinato</name>
+					<name xml:id="ADS">Antonio Di Silvestro</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding model by</resp>
+					<name resp="#DS">Daria Spampinato</name>
+					<name xml:id="LM">Laura Mazzagufo</name>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DB">Denise Bruno</name>
+				</respStmt>
+				<funder>NextGenerationEU</funder>
+				<funder>Ministero dell'Università e della Ricerca</funder>
+				<funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+				<funder ref="coverlessListOrganization.xml#CNR">CNR - Consiglio Nazionale delle Ricerche</funder>
+				<funder ref="coverlessListOrganization.xml#UniCT">Università di Catania</funder>
+			</editionStmt>
+			<publicationStmt>
+				<!-- Dati di diffusione e distribuzione dell'edizione -->
+                <authority ref="coverlessListOrganization.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+                <authority ref="coverlessListOrganization.xml#UniCT">Università di Catania</authority>
+                <date when="2025">2025</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+                </availability>
+                <idno type="filename">coverlessTassonomia.xml</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Born digital.</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<classDecl>
+				<taxonomy xml:id="themesTaxonomy">
+					<category xml:id="vero_verita">
+						<catDesc><term type="themes">Vero e verità</term>: termini riferiti alla ricerca dell'oggettività e della rappresentazione del vero nei testi letterari.</catDesc>
+					</category>
+					<category xml:id="arti_visive">
+						<catDesc><term type="themes">Arti visive</term>: riferimenti all'uso di un lessico derivato dalla pittura (es. colorito, tinta, pastello).</catDesc>
+					</category>
+					<category xml:id="rappresentazione">
+						<catDesc><term type="themes">Rappresentazione</term>: riferimento alla necessità di descrivere e far vedere la scena in modo evidente ed oggettivo.</catDesc>
+					</category>
+                    <category xml:id="emarginazioneEdEsclusione">
+						<catDesc><term type="themes">Emarginazione ed esclusione</term>: riferimenti agli strati più bassi, degradati o marginalizzati della società, tipici dell'indagine naturalista e verista.</catDesc>
+					</category>
+					<category xml:id="ismi">
+						<catDesc><term type="themes">Ismi letterari</term>: riferimenti a correnti letterarie e di pensiero come romanticismo, idealismo, naturalismo, realismo, ecc.</catDesc>
+					</category>
+					<category xml:id="studio_osservazione">
+						<catDesc><term type="themes">Studio e osservazione</term>: vocabolario legato all'analisi clinica, allo studio psicologico, ai "documenti umani" e all'osservazione rigorosa della realtà.</catDesc>
+					</category>
+					<category xml:id="genere_letterario">
+						<catDesc><term type="themes">Genere letterario</term>: lessico che identifica specifiche forme narrative o teatrali (es. romanzo moderno, dramma, novella, racconto).</catDesc>
+					</category>
+					<category xml:id="autorialita_narrativita">
+						<catDesc><term type="themes">Forma e autorialità</term>: termini relativi allo stile, al soggetto, all'umorismo e alla costruzione formale dell'opera.</catDesc>
+					</category>
+					<category xml:id="narrazione">
+						<catDesc><term type="themes">Narrazione</term>: riferimenti agli elementi strutturali del testo, come la scena, lo sviluppo, l'intreccio e i movimenti testuali.</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Questo file contiene la tassonomia per il progetto COVerLeSS.</p>
+		</body>
+	</text>
+</TEI>

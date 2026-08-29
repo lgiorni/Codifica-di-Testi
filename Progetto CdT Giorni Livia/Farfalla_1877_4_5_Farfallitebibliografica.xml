@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="stile_coverless.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="it">
+      <fileDesc>
+         <titleStmt>
+            <title>Recensione a Luigi Capuana, Profili di donna</title>
+            <author ref="coverlessListPerson.xml#ignoto">Autore ignoto</author>
+            <respStmt>
+               <resp>Conversione TEI P5 a cura di</resp>
+               <name xml:id="LG">Livia Giorni</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">Digital edition - <date when="2026-06">Giugno 2026</date>
+            </edition>
+            <respStmt>
+               <resp>Digital edition project coordinated by</resp>
+               <name xml:id="DS">Daria Spampinato</name>
+               <name xml:id="ADS">Antonio Di Silvestro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding model by</resp>
+               <name xml:id="LM">Laura Mazzagufo</name>
+               <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+               <name xml:id="DB">Denise Bruno</name>
+            </respStmt>
+            <funder>NextGenerationEU</funder>
+            <funder>Ministero dell'Università e della Ricerca</funder>
+            <funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+            <funder ref="coverlessListOrganization.xml#CNR">CNR - Consiglio Nazionale delle
+               Ricerche</funder>
+            <funder ref="coverlessListOrganization.xml#UniCT">Università di Catania</funder>
+         </editionStmt>
+         <publicationStmt>
+            <authority ref="coverlessListOrganization.xml#ISTC">CNR ISTC - Istituto di Scienze e
+               Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+            <authority ref="coverlessListOrganization.xml#UniCT">Università di Catania</authority>
+            <date when="2026">2026</date>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC
+                  4.0</licence>
+            </availability>
+            <idno type="filename">Farfalla_1877_4_5_Farfallitebibliografica.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">Farfallite bibliografica</title>
+                     <author ref="coverlessListPerson.xml#ignoto">Autore ignoto</author>
+                  </analytic>
+                  <monogr>
+                     <title level="j" xml:id="farfalla">La Farfalla</title>
+                     <imprint>
+                        <pubPlace ref="coverlessListPlace.xml#CA">Cagliari</pubPlace>
+                        <publisher ref="coverlessListOrganization.xml#timon">Tipografia Timon</publisher>
+                        <date when="1877">1877</date>
+                     </imprint>
+                     <biblScope unit="volume">4</biblScope>
+                     <biblScope unit="issue">5</biblScope>
+                     <biblScope unit="page">19</biblScope>
+                  </monogr>
+                  <relatedItem type="reviewOf">
+                     <biblStruct>
+                        <monogr>
+                           <title level="m" ref="coverlessListWork.xml#profiliDiDonna">Profili di donna</title>
+                           <author ref="coverlessListPerson.xml#luigiCapuana">L. Capuana</author>
+                           <imprint>
+                              <pubPlace ref="coverlessListPlace.xml#MI">Milano</pubPlace>
+                              <publisher ref="coverlessListOrganization.xml#brigolaEditore">Brigola Editore</publisher>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                  </relatedItem>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Codifica realizzata per il progetto PRIN PNRR COVerLeSS.</p>
+         </projectDesc>
+         <editorialDecl>
+            <normalization>
+               <p>Ortografia storica mantenuta e regolarizzata mediante l'impiego del tag choice 
+                  e orig/reg.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="text">Recensione</term>
+            </keywords>
+            <keywords scheme="#themesTaxonomy">
+               <term type="themes" ref="coverlessTassonomia.xml#vero_verita">Vero e verità</term>
+               <term type="themes" ref="coverlessTassonomia.xml#arti_visive">Arti visive</term>
+               <term type="themes" ref="coverlessTassonomia.xml#genere_letterario">Genere letterario</term>
+            </keywords>
+         </textClass>
+         <creation>
+            <placeName ref="coverlessListPlace.xml#MI">Milano</placeName>
+            <date>unknown</date>
+         </creation>
+         <langUsage>
+            <language ident="it">Italiano</language>
+            <language ident="it-x-800">Italiano di fine Ottocento</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change status="draft" when="2026-06-01" resp="#LG">First draft 1 Giugno 2026</change>
+      </revisionDesc>
+  </teiHeader>
+
+  <facsimile>
+      <surface xml:id="surface_pag_19">
+          <graphic url="Farfalla_1877_4_5_19.tif" width="3128px" height="4802px" />
+          <zone xml:id="zona_titolo_farf" ulx="1583" uly="1373" lrx="2773" lry="1457" />
+          <zone xml:id="zona_sep_farf" ulx="2069" uly="1464" lrx="2302" lry="1490" />
+          <zone xml:id="zona_sottotitolo_farf" ulx="1546" uly="1546" lrx="2811" lry="1673" />
+          <zone xml:id="zona_testo_farf" ulx="1549" uly="1686" lrx="2807" lry="3080" />
+          <zone xml:id="zona_firma_farf" ulx="2023" uly="3121" lrx="2795" lry="3379" />
+      </surface>
+  </facsimile>
+
+  <text type="recensione">
+      <body>
+         <pb n="19" xml:id="Farfalla_1877_4_5_19" facs="#surface_pag_19"/>
+         <cb n="2" xml:id="col_2-p.19"/>
+
+         <div type="intestazione">
+            <head type="main" rend="uppercase" facs="#zona_titolo_farf">FARFALLITE BIBLIOGRAFICA</head>
+            <metamark function="sectionDivider" facs="#zona_sep_farf">~~~</metamark>
+         </div>
+
+         <div type="sottotitolo" facs="#zona_sottotitolo_farf">
+            <p xml:id="p_1">
+               <title ref="coverlessListWork.xml#profiliDiDonna" rend="uppercase">PROFILI DI DONNA</title>, di <persName type="real" ref="coverlessListPerson.xml#luigiCapuana">L. Capuana</persName>. 
+               <placeName type="real" ref="coverlessListPlace.xml#MI">Milano</placeName>, 
+               <orgName type="publisher" ref="coverlessListOrganization.xml#brigolaEditore">Brigola Editore</orgName>, 
+               <choice><abbr>L.</abbr><expan resp="#LG">Lire</expan></choice> 3,50.
+            </p>
+         </div>
+
+         <div type="text" facs="#zona_testo_farf">
+            <p xml:id="p_2" rend="first-line-indented">
+               <persName type="fictional" ref="coverlessListPerson.xml#delfina">Delfina</persName>, 
+               <persName type="fictional" ref="coverlessListPerson.xml#giulia">Giulia</persName>, 
+               <persName type="fictional" ref="coverlessListPerson.xml#fasma">Fasma</persName>, 
+               <persName type="fictional" ref="coverlessListPerson.xml#ebe">Ebe</persName>, 
+               <persName type="fictional" ref="coverlessListPerson.xml#jela">Jela</persName>, 
+               <persName type="fictional" ref="coverlessListPerson.xml#cecilia">Cecilia</persName>, ecco 
+               i nomi delle simpatiche figurine che il <persName type="real" ref="coverlessListPerson.xml#luigiCapuana">Capuana</persName> 
+               ha visto attraverso lo <seg type="notaEditoriale"><term type="verbum" subtype="studio_osservazione">spettroscopio</term></seg><ptr type="notaEditoriale" target="#N_1_Farfalla_1877_4_5_Farfallitebibliografica" n="1"/> d'una felice fantasia ed ha fissato sulla carta d'una splendida 
+               edizione <orgName type="publisher" ref="coverlessListOrganization.xml#brigolaEditore">Brigola</orgName>.
+            </p>
+            
+            <p xml:id="p_3" rend="first-line-indented">
+               Felice fantasia scrissi, ma mi spiego che con ciò non intendo misconoscere la <term type="verbum" subtype="vero_verita">verità</term> 
+               ch'egli sensibilmente <term type="verbum" subtype="studio_osservazione">si studia di portarvi</term>, seguendo 
+               i desiderati della <term type="forma_letteraria" subtype="ismi">nuova scuola</term> di cui intende e sa inspirare 
+               tutto il carezzevole fascino nell'animo del lettore.
+            </p>
+                
+            <p xml:id="p_4" rend="first-line-indented">
+               <term type="verbum" subtype="rappresentazione">Sul fondo <term type="verbum" subtype="vero_verita">rigorosamente vero</term> 
+               egli lavora di <term type="verbum" subtype="arti_visive">contorno</term> e di <term type="verbum" subtype="arti_visive">colorito</term></term> 
+               con una <term type="verbum" subtype="rappresentazione">magia che non ha dell'arte che il nome</term>, senza 
+               mostrarne le attaccature, le <choice rend="traduzione"><orig>angolosità</orig><reg>spigolosità</reg></choice>. 
+               Egli maneggia il <term type="forma_letteraria" subtype="autorialita_narrativita">pastello</term> come altri 
+               il <term type="forma_letteraria" subtype="autorialita_narrativita">bulino</term>. E riesce, come pochi riescono.
+            </p>
+                
+            <p xml:id="p_5" rend="first-line-indented">
+               Se la cosa, o almeno il dirlo, non paresse troppo banale vi confesso che i <title ref="coverlessListWork.xml#profiliDiDonna" rend="italic">Profili</title> 
+               del signor <persName type="real" ref="coverlessListPerson.xml#luigiCapuana">Capuana</persName> sono l'unico 
+               <term type="forma_letteraria" subtype="genere_letterario">libro</term> - dopo la <title ref="coverlessListWork.xml#madriPerRidere" rend="italic">Madri... per ridere</title> - 
+               che nel semestre <choice><orig>Gennajo</orig><reg>Gennaio</reg></choice> - Luglio 77 mi abbiano obbligato a leggerli 
+               tutti d'un fiato come fa uno <choice><orig>scolareto</orig><reg>scolaretto</reg></choice> dei <term type="forma_letteraria" subtype="genere_letterario">romanzi</term> 
+               di <persName type="real" ref="coverlessListPerson.xml#alexandreDumas">Dumas</persName> o di <persName type="real" ref="coverlessListPerson.xml#emmanuelGonzales">Gonzales</persName>.
+            </p>
+                
+            <p xml:id="p_6" rend="first-line-indented">
+               Ecco perchè - non sentendomi disposto alla critica nient'affatto, mi rimetto e sottoscrivo al molto bene 
+               che ne disse <persName type="real" ref="coverlessListPerson.xml#feliceCameroni"><choice><abbr>F.</abbr><expan resp="#LG">Felice</expan></choice> Cameroni</persName> 
+               sul <orgName type="journal" ref="coverlessListOrganization.xml#sole" rend="italic">Sole</orgName> di 
+               <placeName type="real" ref="coverlessListPlace.xml#MI">Milano</placeName> e faccio ai miei lettori questa sola raccomandazione :
+            </p>
+            
+            <p xml:id="p_7" rend="first-line-indented">
+               <q>« <hi rend="italic">Comprate i</hi> <title ref="coverlessListWork.xml#profiliDiDonna">Profili</title> <hi rend="italic">del</hi> 
+               <persName type="real" ref="coverlessListPerson.xml#luigiCapuana">Capuana</persName> <hi rend="italic">— saranno tre ore 
+               e mezzo rubate alla <choice><orig>noja</orig><reg>noia</reg></choice>; a <seg type="notaEditoriale">un franco</seg><ptr type="notaEditoriale" target="#N_2_Farfalla_1877_4_5_Farfallitebibliografica" n="2"/> l'ora.</hi> »</q>
+            </p>
+         </div>
+
+         <div type="closer">
+            <signed facs="#zona_firma_farf">
+               <persName type="fictional" ref="coverlessListPerson.xml#bibliotecario">Bibliotecario</persName>
+            </signed>
+         </div>
+      </body>
+      
+      <back>
+         <list type="notaEditoriale">
+            <item n="1" xml:id="N_1_Farfalla_1877_4_5_Farfallitebibliografica">
+               <label>spettroscopio</label>
+               <note>
+                  <ab>Lo spettroscopio è uno strumento ottico scientifico. Usarlo come metafora per descrivere il modo in cui Capuana analizza l'animo femminile è un chiaro segnale della mentalità Positivista: la letteratura inizia a usare il lessico delle scienze esatte per studiare la società.</ab>
+               </note>
+            </item>
+            <item n="2" xml:id="N_2_Farfalla_1877_4_5_Farfallitebibliografica">
+               <label>un franco</label>
+               <note>
+                  <ab>Moneta in uso all'epoca (franco francese o italiano pre-lira consolidata), utilizzata qui colloquialmente per sottolineare il basso costo del libro e il suo alto rendimento in termini di intrattenimento.</ab>
+               </note>
+            </item>
+         </list>
+      </back>
+  </text>
+</TEI>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title> Lista di entità nominate per i testi codificati in COVerLeSS: le persone
+				</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name xml:id="LG">Livia Giorni</name>					
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">Digital edition - <date when="2026-60">June 2026</date></edition>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="DS">Daria Spampinato</name>
+					<name xml:id="ADS">Antonio Di Silvestro</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding model by</resp>
+					<name resp="#DS">Daria Spampinato</name>
+					<name xml:id="LM">Laura Mazzagufo</name>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DB">Denise Bruno</name>
+				</respStmt>
+				<funder>NextGenerationEU</funder>
+				<funder>Ministero dell'Università e della Ricerca</funder>
+				<funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+				<funder ref="coverlessListOrganization.xml#CNR">CNR - Consiglio Nazionale delle
+					Ricerche</funder>
+				<funder ref="coverlessListOrganization.xml#UniCT">Università di Catania</funder>
+			</editionStmt>
+			<publicationStmt>
+				<!-- Dati di diffusione e distribuzione dell'edizione -->
+				<authority ref="coverlessListOrganization.xml#ISTC">CNR ISTC - Istituto di Scienze e
+					Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+				<authority ref="coverlessListOrganization.xml#UniCT">Università di
+					Catania</authority>
+				<date when="2025">2025</date>
+				<availability status="free">
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC
+						4.0</licence>
+				</availability>
+				<idno type="filename">coverlessListPerson.xml</idno>
+			</publicationStmt>
+			<sourceDesc>
+			<listPerson xml:id="ListPerson">
+				<person xml:id="luigiCapuana">
+					<persName type="real" role="author">
+						<ref target="http://viaf.org/viaf/24615920"/>
+						<forename>Luigi</forename>
+						<surname>Capuana</surname>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1839">1839</date>
+						<placeName ref="coverlessListPlace.xml#mineo">Mineo</placeName>
+					</birth>
+					<death>
+						<date when="1915">1915</date>
+						<placeName ref="coverlessListPlace.xml#CT">Catania</placeName>
+					</death>
+					<note source="https://www.treccani.it/enciclopedia/luigi-capuana/">
+						<p>Scrittore (Mineo 1839 - Catania 1915). Fu prof. di letteratura italiana nel magistero di Roma e poi nell'univ. di Catania. Con G. Verga è il maggiore rappresentante del verismo italiano.</p>
+					</note>
+				</person>
+				<person xml:id="emileZola">
+					<persName type="real" role="author">
+						<ref target="http://viaf.org/viaf/32004502"/>
+						<forename>Émile</forename>
+						<surname>Zola</surname>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1840">1840</date>
+						<placeName ref="coverlessListPlace.xml#PAR">Parigi</placeName>
+					</birth>
+					<death>
+						<date when="1902">1902</date>
+						<placeName ref="coverlessListPlace.xml#PAR">Parigi</placeName>
+					</death>
+					<note source="https://www.treccani.it/enciclopedia/emile-zola/">
+						<p>Scrittore francese (Parigi 1840 - ivi 1902). È il rappresentante più noto e l'esponente più consapevole del naturalismo francese.</p>
+					</note>
+				</person>
+				<person xml:id="feliceCameroni">
+					<persName type="real" role="author">
+						<ref target="http://viaf.org/viaf/17265183"/>
+						<forename>Felice</forename>
+						<surname>Cameroni</surname>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1844">1844</date>
+						<placeName ref="coverlessListPlace.xml#MI">Milano</placeName>
+					</birth>
+					<death>
+						<date when="1913">1913</date>
+						<placeName ref="coverlessListPlace.xml#MI">Milano</placeName>
+					</death>
+					<note source="https://www.treccani.it/enciclopedia/felice-cameroni/">
+						<p>Critico letterario (Milano 1844 - ivi 1913); fervido propugnatore del naturalismo in Italia.</p>
+					</note>
+				</person>
+				<person xml:id="alexandreDumas">
+					<persName type="real" role="author">
+						<ref target="http://viaf.org/viaf/51688902"/>
+						<forename>Alexandre</forename>
+						<surname>Dumas</surname>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1802">1802</date>
+						<placeName ref="coverlessListPlace.xml#villerscotterets">Villers-Cotterêts</placeName>
+					</birth>
+					<death>
+						<date when="1870">1870</date>
+						<placeName ref="coverlessListPlace.xml#puys">Puys</placeName>
+					</death>
+					<note source="https://www.treccani.it/enciclopedia/alexandre-dumas/">
+						<p>Scrittore (Villers-Cotterêts, Aisne, 1802 - Puys, Dieppe, 1870). Autore popolarissimo di romanzi storici e drammi romantici.</p>
+					</note>
+				</person>
+				<person xml:id="emmanuelGonzales">
+					<persName type="real" role="author">
+						<ref target="http://viaf.org/viaf/100188989"/>
+						<forename>Emmanuel</forename>
+						<surname>Gonzalès</surname>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1815">1815</date>
+						<placeName ref="coverlessListPlace.xml#saintes">Saintes</placeName>
+					</birth>
+					<death>
+						<date when="1887">1887</date>
+						<placeName ref="coverlessListPlace.xml#PAR">Parigi</placeName>
+					</death>
+					<note source="https://www.treccani.it/enciclopedia/emmanuel-gonzales/">
+						<p>Romanziere (Saintes 1815 - Parigi 1887), fondatore della Revue de France, prolifico autore di romanzi d'appendice.</p>
+					</note>
+				</person>
+				<person xml:id="feliceUda">
+					<persName type="real" role="author">
+						<ref target="http://viaf.org/viaf/89418593"/>
+						<forename>Felice</forename>
+						<surname>Uda</surname>
+					</persName>
+					<sex>M</sex>
+					<birth>
+						<date when="1832">1832</date>
+						<placeName ref="coverlessListPlace.xml#CA">Cagliari</placeName>
+					</birth>
+					<death>
+						<date when="1900">1900</date>
+					</death>
+					<note source="https://www.treccani.it/enciclopedia/felice-uda/">
+						<p>Scrittore (Cagliari 1832 - Milano 1900). Fratello di Michele; scrisse commedie, drammi e versi.</p>
+					</note>
+				</person>
+				<person xml:id="ignoto">
+					<persName type="real">Autore ignoto</persName>
+					<note><p>Identificativo utilizzato per articoli non firmati o di cui non si conosce l'autore.</p></note>
+				</person>
+				<person xml:id="bibliotecario">
+					<persName type="fictional">
+						<addName type="pseudonym">Bibliotecario</addName>
+					</persName>
+					<note><p>Pseudonimo redazionale utilizzato dall'autore della rubrica "Farfallite Bibliografica" per la stesura delle recensioni letterarie sulla rivista La Farfalla.</p></note>
+				</person>
+				<person xml:id="nimpha">
+					<persName type="fictional">
+						<addName type="pseudonym">Nimpha</addName>
+					</persName>
+					<note><p>Pseudonimo utilizzato dal redattore che ha firmato l'ampia e appassionata recensione de L'Assommoir di Zola nella rubrica bibliografica della rivista La Farfalla.</p></note>
+				</person>
+				
+				<!-- Personaggi di finzione -->
+				<person xml:id="delfina">
+					<persName type="fictional"><forename>Delfina</forename></persName>
+					<sex>F</sex>
+					<note><p>Personaggio eponimo della novella contenuta nella raccolta "Profili di donna". È descritta come una donna che, dopo una giovinezza vivace, si chiude in un misticismo rassegnato e malinconico nel tentativo di soffocare le proprie passioni intime e le delusioni amorose.</p></note>
+				</person>
+				<person xml:id="giulia">
+					<persName type="fictional"><forename>Giulia</forename></persName>
+					<sex>F</sex>
+					<note><p>Personaggio eponimo della novella contenuta nella raccolta "Profili di donna". Rappresenta la figura mondana e salottiera: Capuana la descrive come una donna la cui apparente leggerezza e civetteria nascondono in realtà un profondo vuoto affettivo e una nevrosi latente.</p></note>
+				</person>
+				<person xml:id="fasma">
+					<persName type="fictional"><forename>Fasma</forename></persName>
+					<sex>F</sex>
+					<note><p>Personaggio eponimo della novella contenuta nella raccolta "Profili di donna". Come suggerisce il nome stesso (dal greco "apparizione"), è una figura eterea e sfuggente, quasi un'allucinazione che incarna l'ossessione romantica e l'ideale irraggiungibile del narratore.</p></note>
+				</person>
+				<person xml:id="ebe">
+					<persName type="fictional"><forename>Ebe</forename></persName>
+					<sex>F</sex>
+					<note><p>Personaggio eponimo della novella contenuta nella raccolta "Profili di donna". Richiamando il nome della divinità greca della giovinezza, è descritta come una fanciulla dall'innocenza e dalla vitalità prorompenti, osservata dal narratore con attenzione clinica.</p></note>
+				</person>
+				<person xml:id="jela">
+					<persName type="fictional"><forename>Jela</forename></persName>
+					<sex>F</sex>
+					<note><p>Personaggio eponimo della novella contenuta nella raccolta "Profili di donna". È una figura femminile di origini slave, caratterizzata da un fascino esotico, un temperamento misterioso e un sistema nervoso ipersensibile e quasi morboso.</p></note>
+				</person>
+				<person xml:id="cecilia">
+					<persName type="fictional"><forename>Cecilia</forename></persName>
+					<sex>F</sex>
+					<note><p>Personaggio eponimo della novella contenuta nella raccolta "Profili di donna". È una donna dalla costituzione estremamente delicata e dalla spiccata sensibilità (spesso legata alle impressioni artistiche), le cui reazioni emotive vengono trattate quasi come sintomi fisiologici di iperestesia.</p></note>
+				</person>
+				<person xml:id="cassandra">
+					<persName type="fictional"><forename>Cassandra</forename></persName>
+					<sex>F</sex>
+					<note source="https://www.treccani.it/enciclopedia/cassandra/"><p>Nella mitologia greca, figlia di Priamo, re di Troia, e di Ecuba. Ottenne il dono della profezia ma fu condannata a non essere mai creduta.</p></note>
+				</person>
+			</listPerson>
+					</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Questo file contiene la lista completa delle persone codificate per il progetto COVerLeSS.</p>
+		</body>
+	</text>
+</TEI>

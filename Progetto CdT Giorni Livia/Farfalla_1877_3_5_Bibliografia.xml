@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="stile_coverless.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="it">
+      <fileDesc>
+         <titleStmt>
+            <title>Recensione a Émile Zola, L'Assommoir</title>
+            <author ref="coverlessListPerson.xml#nimpha">Nimpha</author>
+            <respStmt>
+               <resp>Conversione TEI P5 a cura di</resp>
+               <name xml:id="LG">Livia Giorni</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">Digital edition - <date when="2026-06">Giugno 2026</date></edition>
+            <respStmt>
+               <resp>Digital edition project coordinated by</resp>
+               <name xml:id="DS">Daria Spampinato</name>
+               <name xml:id="ADS">Antonio Di Silvestro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding model by</resp>
+               <name xml:id="LM">Laura Mazzagufo</name>
+               <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+               <name xml:id="DB">Denise Bruno</name>
+            </respStmt>
+            <funder>NextGenerationEU</funder>
+            <funder>Ministero dell'Università e della Ricerca</funder>
+            <funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+            <funder ref="coverlessListOrganization.xml#CNR">CNR - Consiglio Nazionale delle Ricerche</funder>
+            <funder ref="coverlessListOrganization.xml#UniCT">Università di Catania</funder>
+         </editionStmt>
+         <publicationStmt>
+            <authority ref="coverlessListOrganization.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+            <authority ref="coverlessListOrganization.xml#UniCT">Università di Catania</authority>
+            <date when="2026">2026</date>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+            </availability>
+            <idno type="filename">Farfalla_1877_3_5_Bibliografia.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">Bibliografia</title>
+                     <author ref="coverlessListPerson.xml#nimpha">Nimpha</author>
+                  </analytic>
+                  <monogr>
+                     <title level="j" xml:id="farfalla">La Farfalla</title>
+                     <imprint>
+                        <pubPlace ref="coverlessListPlace.xml#CA">Cagliari</pubPlace>
+                        <publisher ref="coverlessListOrganization.xml#timon">Tipografia Timon</publisher>
+                        <date when="1877">1877</date>
+                     </imprint>
+                     <biblScope unit="volume">3</biblScope>
+                     <biblScope unit="issue">5</biblScope>
+                     <biblScope unit="page">40-42</biblScope>
+                  </monogr>
+                  <relatedItem type="reviewOf">
+                     <biblStruct>
+                        <monogr>
+                           <title level="m" ref="coverlessListWork.xml#assommoir">L'Assommoir</title>
+                           <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                           <imprint>
+                              <pubPlace ref="coverlessListPlace.xml#PAR">Paris</pubPlace>
+                              <publisher ref="coverlessListOrganization.xml#charpentier">Charpentier</publisher>
+                              <date when="1877">1877</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                  </relatedItem>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <projectDesc>
+            <p>Codifica realizzata per il progetto PRIN PNRR COVerLeSS.</p>
+         </projectDesc>
+         <editorialDecl>
+            <normalization>
+               <p>Spazi normalizzati. Le grafie originali e arcaiche sono state mantenute e affiancate dalla forma normalizzata e tradotta tramite tag choice e orig/reg.</p>
+            </normalization>
+            <interpretation>
+               <p>Il lessico è codificato semanticamente mediante gli attributi verbum e subtype. Le sezioni bibliografiche sono codificate mediante listBibl.</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="text">Recensione</term>
+            </keywords>
+            <keywords scheme="#themesTaxonomy">
+               <term type="themes" ref="coverlessTassonomia.xml#emarginazioneEdEsclusione">Emarginazione ed esclusione</term>
+               <term type="themes" ref="coverlessTassonomia.xml#rappresentazione">Rappresentazione</term>
+               <term type="themes" ref="coverlessTassonomia.xml#vero_verita">Vero e verità</term>
+               <term type="themes" ref="coverlessTassonomia.xml#genere_letterario">Genere letterario</term>
+               <term type="themes" ref="coverlessTassonomia.xml#studio_osservazione">Studio e osservazione</term>
+               <term type="themes" ref="coverlessTassonomia.xml#autorialita_narrativita">Forma e autorialità</term>
+               <term type="themes" ref="coverlessTassonomia.xml#narrazione">Narrazione</term>
+               <term type="themes" ref="coverlessTassonomia.xml#ismi">Ismi</term>
+            </keywords>
+         </textClass>
+         <creation>
+            <placeName ref="coverlessListPlace.xml#CA">Cagliari</placeName>
+            <date when="1877">1877</date>
+         </creation>
+         <langUsage>
+            <language ident="it">Italiano</language>
+            <language ident="it-x-800">Italiano di fine Ottocento</language>
+            <language ident="fr">Francese</language>
+         </langUsage>
+      </profileDesc>
+
+      <revisionDesc>
+         <change when="2026-06" resp="#LG">First draft</change>
+      </revisionDesc>
+  </teiHeader>
+
+  <facsimile>
+      <surface xml:id="surface_pag_40">
+          <graphic url="Farfalla_1877_3_5_40.tif" width="3414px" height="4996px" />
+          <zone xml:id="zona_titolo_biblio" ulx="2172" uly="3200" lrx="2745" lry="3321" />
+          <zone xml:id="zona_divisore_40" ulx="2390" uly="3353" lrx="2539" lry="3370" />
+          <zone xml:id="zona_dati_biblio" ulx="1841" uly="3392" lrx="3087" lry="3525" />
+          <zone xml:id="zona_testo_40" ulx="1829" uly="3545" lrx="3105" lry="4582" />
+      </surface>
+
+      <surface xml:id="surface_pag_42">
+          <graphic url="Farfalla_1877_3_5_42.tif" width="3408px" height="4986px" />
+          <zone xml:id="zona_stella_42" ulx="1015" uly="553" lrx="1067" lry="597" />
+          <zone xml:id="zona_testo_42" ulx="405" uly="613" lrx="1678" lry="1120" />
+          <zone xml:id="zona_firma_42" ulx="1263" uly="1120" lrx="1583" lry="1180" />
+      </surface>
+  </facsimile>
+
+  <text type="recensione">
+      <body>
+         <pb n="40" xml:id="Farfalla_1877_3_5_40" facs="#surface_pag_40"/>
+         <cb n="1" xml:id="col_1-p.40"/>
+
+         <div type="intestazione">
+            <head type="main" facs="#zona_titolo_biblio">BIBLIOGRAFIA</head>
+            <metamark function="sectionDivider" facs="#zona_divisore_40">~~~</metamark>
+         </div>
+
+         <div type="text">
+            <listBibl>
+               <bibl facs="#zona_dati_biblio">
+                  <author ref="coverlessListPerson.xml#emileZola">Emilio Zola</author>. —
+                  <title ref="coverlessListWork.xml#assommoir" rend="italic"><choice><orig>L' assommoir</orig><reg>L'assommoir</reg></choice></title>.
+                  <pubPlace ref="coverlessListPlace.xml#PAR">Paris</pubPlace>.
+                  <publisher ref="coverlessListOrganization.xml#charpentier">Charpentier &amp; Comp. editori</publisher>
+                  <choice><abbr>L.</abbr><expan resp="#LG">Lire</expan></choice> 3,50.
+               </bibl>
+            </listBibl>
+
+            <p xml:id="p_1" facs="#zona_testo_40" rend="first-line-indented">
+               Avete mai <choice><orig>veduto</orig><reg>visto</reg></choice> un <term type="verbum" subtype="evoluzione_sociale">padrone-spazzacamino</term> inferocire
+               contro lo <term type="verbum" subtype="evoluzione_sociale">sgraziato piccino ch'egli ha comprato</term>
+               e cui batte regolarmente ogni mattina ed ogni sera?
+            </p>
+            <p xml:id="p_2" facs="#zona_testo_40" rend="first-line-indented">
+               Avete mai visto il <term type="verbum" subtype="evoluzione_sociale"><choice><orig>lenone</orig><reg>sfruttatore</reg></choice> del <choice><orig>lupanare</orig><reg>bordello</reg></choice></term> il quale
+               schiaffeggia impunemente la <term type="verbum" subtype="evoluzione_sociale">miserabile</term> che non ha
+               <choice><orig>saputa guadagnare</orig><reg>saputo guadagnare</reg></choice> la sua giornata?
+            </p>
+            <p xml:id="p_3" facs="#zona_testo_40" rend="first-line-indented">
+               Avete mai visto un figlio alzar la mano sulla sua
+               <term type="verbum" subtype="evoluzione_sociale">vecchia madre</term>, <term type="verbum" subtype="evoluzione_sociale"><choice><orig>vituperando</orig><reg>insultando</reg></choice></term> <choice><orig>i di lei bianchi capegli
+               colle</orig><reg>i suoi bianchi capelli con le</reg></choice> più orrende <choice><orig>contumelie</orig><reg>offese</reg></choice>...?
+            </p>
+            <p xml:id="p_4" facs="#zona_testo_40" rend="first-line-indented">
+               Ebbene se avete <choice><orig>veduto</orig><reg>visto</reg></choice> tutto questo; ebbene, allora
+               dei tre orrori diversi da voi provati fate un <choice><orig>orror</orig><reg>orrore</reg></choice>
+               solo: e questo orrore, in <term type="verbum" subtype="vero_verita">verità</term> io vi dico, non sarà
+               ancora la millesima parte dell'orrore provato da me
+               alla lettura del nuovo <term type="forma_letteraria" subtype="genere_letterario">romanzo</term> <title ref="coverlessListWork.xml#assommoir" rend="italic"><choice><orig>L' assommoir</orig><reg>L'assommoir</reg></choice></title>, <choice><orig>testè</orig><reg>poco fa</reg></choice>
+               pubblicato da <persName type="real" ref="coverlessListPerson.xml#emileZola">Emilio Zola</persName>, il valentissimo <term type="forma_letteraria" subtype="ismi">caposcuola</term>
+               del <term type="forma_letteraria" subtype="ismi">genere realista</term>.
+            </p>
+            <p xml:id="p_5" facs="#zona_testo_40" rend="first-line-indented">
+               Dieci volte ho <choice><orig>gittato</orig><reg>gettato</reg></choice> via il <term type="forma_letteraria" subtype="genere_letterario">libro</term>, perchè, qui, al
+               cuore, mi sentiva un <term type="verbum" subtype="vero_verita">vero dolor fisico</term>: e dieci volte
+               l'ho ripreso, per quel medesimo senso di acre volontà
+               che spinge il ferito a tentare <choice><orig>coll'</orig><reg>con l'</reg></choice>unghia l'epidermide
+               d'una piaga non <choice><orig>peranco</orig><reg>ancora</reg></choice> cicatrizzata...
+            </p>
+
+            <pb n="42" xml:id="Farfalla_1877_3_5_42" facs="#surface_pag_42"/>
+            <cb n="2" xml:id="col_1-p.42"/>
+
+            <metamark function="sectionDivider" facs="#zona_stella_42">*</metamark>
+
+            <p xml:id="p_6" facs="#zona_testo_42" rend="first-line-indented">
+               Quanto a <term type="forma_letteraria" subtype="autorialita_narrativita">forma</term> <title ref="coverlessListWork.xml#assommoir">l'Assommoir</title> è uno dei <term type="forma_letteraria" subtype="genere_letterario">libri</term> meglio
+               riusciti. <title ref="coverlessListWork.xml#lacuree" rend="italic">La Curée</title>, <title ref="coverlessListWork.xml#ventredeparis" rend="italic">Ventre de Paris</title>, <title ref="coverlessListWork.xml#rougonmacquart" rend="italic">i Rougon-Macquart
+               </title> non hanno neppure la metà del <term type="forma_letteraria" subtype="narrazione">movimento</term>
+               dello <term type="forma_letteraria" subtype="narrazione">slancio che vivifica</term> questa <term type="forma_letteraria" subtype="narrazione">primizia</term> che ci manda
+                la letteratura francese...
+            </p>
+            <p xml:id="p_7" facs="#zona_testo_42" rend="first-line-indented">
+               Oggi <title ref="coverlessListWork.xml#assommoir">l'Assommoir</title> è da alcuno portato ai <choice><orig>settecieli</orig><reg>settimo cielo</reg></choice>: da altri <choice><orig>adimato</orig><reg>sprofondato</reg></choice> agli abissi.
+            </p>
+            <p xml:id="p_8" facs="#zona_testo_42" rend="first-line-indented">
+               <choice><orig>L' avvenire</orig><reg>L'avvenire</reg></choice> sarà più categorico e deciso. Esso dirà
+               che <title ref="coverlessListWork.xml#assommoir">l'Assommoir</title> era ai giorni nostri un libro necessario.
+            </p>
+
+            <div type="closer">
+               <signed facs="#zona_firma_42">
+                  <persName type="fictional" ref="coverlessListPerson.xml#nimpha">Nimpha</persName>.
+               </signed>
+            </div>
+
+         </div>
+      </body>
+  </text>
+</TEI>
